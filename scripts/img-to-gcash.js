@@ -34,7 +34,14 @@ const getTransaction = async () => {
 
 getTransaction().then(transaction => {
   if (transaction) {
-    const filename = `${rootPath}/transactions/${process.env.DATE}-${process.env.ACTIVE_SIM}--${process.env.DUTY}.json`
+    const date = process.env.DATE || ''
+    const counter = process.env.COUNTER || ''
+    const phone = process.env.PHONE || ''
+    const sim = process.env.SIM || ''
+    const mobile = process.env.MOBILE || ''
+    const duty = process.env.DUTY || ''
+
+    const filename = `${rootPath}/transactions/${date}-${counter} (P-${phone} S-${sim}) ${mobile} -- ${duty} .json`
 
     if (!fs.existsSync(filename)) {
       fs.writeFileSync(filename, '[]', 'utf8')
