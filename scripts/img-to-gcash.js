@@ -39,9 +39,8 @@ getTransaction().then(transaction => {
     const phone = process.env.PHONE || ''
     const sim = process.env.SIM || ''
     const mobile = process.env.MOBILE || ''
-    const duty = process.env.DUTY || ''
 
-    const filename = `${rootPath}/transactions/${date}-${counter} (P-${phone} S-${sim}) ${mobile} -- ${duty}.json`
+    const filename = `${rootPath}/transactions/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
 
     if (!fs.existsSync(filename)) {
       fs.writeFileSync(filename, '[]', 'utf8')
