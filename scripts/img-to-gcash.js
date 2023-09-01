@@ -40,7 +40,8 @@ getTransaction().then(transaction => {
     const sim = process.env.SIM || ''
     const mobile = process.env.MOBILE || ''
 
-    const filename = `${rootPath}/transactions/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
+    const location = Boolean(process.argv) && process.argv[2] === '--keep' ? 'keep' : 'transactions'
+    const filename = `${rootPath}/${location}/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
 
     if (!fs.existsSync(filename)) {
       fs.writeFileSync(filename, '[]', 'utf8')
