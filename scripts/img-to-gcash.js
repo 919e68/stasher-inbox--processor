@@ -8,6 +8,14 @@ const { time } = require('../lib/time')
 const { extractType, extractTransaction } = require('../lib/gcash-extractor')
 
 const getTransaction = async () => {
+  // initialize folders
+  if (!fs.existsSync(`${rootPath}/tmp`)) {
+    fs.mkdirSync(`${rootPath}/tmp`)
+  }
+  if (!fs.existsSync(`${rootPath}/transactions`)) {
+    fs.mkdirSync(`${rootPath}/transactions`)
+  }
+
   const timestamp = Math.floor(new Date().getTime() / 1000)
 
   const path = '/sdcard/Download'
@@ -21,7 +29,10 @@ const getTransaction = async () => {
   await runShell(`tesseract ${outputImg} ${outputTxt}`)
 
   const content = fs.readFileSync(`${outputTxt}.txt`)
-  const cleanContent = content.toString().replace(/\n/g, ' ').replace(/ +/g, ' ')
+  const cleanContent = content
+    .toString()
+    .replace(/\n/g, ' ')
+    .replace(/ +/g, ' ')
 
   const transactionType = extractType(cleanContent)
 
@@ -32,7 +43,7 @@ const getTransaction = async () => {
   return null
 }
 
-getTransaction().then(transaction => {
+getTransaction().then((transaction) => {
   if (transaction) {
     const date = process.env.DATE || ''
     const counter = process.env.COUNTER || ''
@@ -40,7 +51,10 @@ getTransaction().then(transaction => {
     const sim = process.env.SIM || ''
     const mobile = process.env.MOBILE || ''
 
-    const location = Boolean(process.argv) && process.argv[2] === '--keep' ? 'keep' : 'transactions'
+    const location =
+      Boolean(process.argv) && process.argv[2] === '--keep'
+        ? 'keep'
+        : 'transactions'
     const filename = `${rootPath}/${location}/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
 
     if (!fs.existsSync(filename)) {
@@ -51,8 +65,8 @@ getTransaction().then(transaction => {
     const transactions = JSON.parse(content.toString())
     transaction.duty = process.env.DUTY
     transaction.num = transactions.length + 1
-    transaction.id = ""
-    transaction.note = ""
+    transaction.id = ''
+    transaction.note = ''
 
     transactions.unshift(transaction)
 
