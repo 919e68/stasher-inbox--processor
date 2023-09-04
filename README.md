@@ -1,3 +1,9 @@
+# phone check
+
+```bash
+adb devices
+```
+
 # process a transaction
 
 ```bash
