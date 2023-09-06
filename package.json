@@ -7,7 +7,9 @@
     "start": "node ./server.js",
     "dev": "nodemon ./server.js",
     "process": "node ./scripts/img-to-gcash.js",
-    "total": "node ./scripts/check-transactions.js"
+    "total": "node ./scripts/check-transactions.js",
+    "pull": "git pull origin main",
+    "push": "git add . && git commit -m up && git pull origin main && git push origin main"
   },
   "author": "",
   "license": "ISC",
