@@ -11,7 +11,7 @@ const transactionConfig = config[counter]
 
 if (transactionConfig) {
   const date = commandArgs.keep ? transactionConfig.date : process.env.DATE
-  const counter = commandArgs.keep ? transactionConfig.counter : process.env.COUNTER
+  const counter = commandArgs.keep ? counter : process.env.COUNTER
   const { phone, sim, mobile } = transactionConfig
 
   const filename = `${rootPath}/${commandArgs.keep ? 'keep' : 'transactions'}/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`

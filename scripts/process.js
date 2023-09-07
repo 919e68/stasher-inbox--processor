@@ -1,11 +1,16 @@
 require('dotenv').config()
-
-const fs = require('fs')
 const rootPath = process.cwd()
 
+const fs = require('fs')
+const { parseArgs } = require(`${rootPath}/lib`)
+const { config } = require(`${rootPath}/config`)
+
 const { runShell } = require('../lib')
-const { time } = require('../lib/time')
 const { extractType, extractTransaction } = require('../lib/gcash-extractor')
+
+const commandArgs = parseArgs(process.argv)
+const counter = commandArgs.counter || process.env.COUNTER
+const transactionConfig = config[counter]
 
 const getTransaction = async () => {
   // initialize folders
@@ -45,17 +50,12 @@ const getTransaction = async () => {
 
 getTransaction().then((transaction) => {
   if (transaction) {
-    const date = process.env.DATE || ''
-    const counter = process.env.COUNTER || ''
-    const phone = process.env.PHONE || ''
-    const sim = process.env.SIM || ''
-    const mobile = process.env.MOBILE || ''
+    const date = commandArgs.keep ? transactionConfig.date : process.env.DATE
+    const counter = commandArgs.keep ? counter : process.env.COUNTER
+    const { phone, sim, mobile } = transactionConfig
 
-    const location =
-      Boolean(process.argv) && process.argv[2] === '--keep'
-        ? 'keep'
-        : 'transactions'
-    const filename = `${rootPath}/${location}/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
+    const filename = `${rootPath}/${commandArgs.keep ? 'keep' : 'transactions'}/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
+    console.log(filename)
 
     if (!fs.existsSync(filename)) {
       fs.writeFileSync(filename, '[]', 'utf8')
