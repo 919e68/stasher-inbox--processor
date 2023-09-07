@@ -37,7 +37,7 @@ if (!fs.existsSync(filename)) {
 
     // check unprocessed transaction
     if (!Boolean(item.id)) {
-      console.log('UNPROCESS TRANSACTION:', item)
+      console.log('UNPROCESS TRANSACTION:', `mobile: ${item.mobile} | amount: ${item.amount} | reference: ${item.reference}`)
     }
 
     referenceCodes.push(item.reference)
