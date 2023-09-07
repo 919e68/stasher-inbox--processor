@@ -36,7 +36,7 @@ const getTransaction = async () => {
 
   const transactionType = extractType(cleanContent)
 
-  if (transactionType) {
+  if (transactionType && cleanContent.toLocaleLowerCase().indexOf('latest') === -1) {
     return extractTransaction(cleanContent, transactionType)
   }
 
