@@ -41,7 +41,10 @@ const getTransaction = async () => {
 
   const transactionType = extractType(cleanContent)
 
-  if (transactionType && cleanContent.toLocaleLowerCase().indexOf('latest') === -1) {
+  if (
+    transactionType &&
+    cleanContent.toLocaleLowerCase().indexOf('latest') === -1
+  ) {
     return extractTransaction(cleanContent, transactionType)
   }
 
@@ -51,10 +54,11 @@ const getTransaction = async () => {
 getTransaction().then((transaction) => {
   if (transaction) {
     const date = transactionConfig.date || process.env.DATE
-    const counter = commandArgs.keep ? counter : process.env.COUNTER
     const { phone, sim, mobile } = transactionConfig
 
-    const filename = `${rootPath}/${commandArgs.keep ? 'keep' : 'transactions'}/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
+    const filename = `${rootPath}/${
+      commandArgs.keep ? 'keep' : 'transactions'
+    }/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
     console.log(filename)
 
     if (!fs.existsSync(filename)) {

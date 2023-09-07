@@ -9,12 +9,15 @@ const commandArgs = parseArgs(process.argv)
 const counter = commandArgs.counter || process.env.COUNTER
 const transactionConfig = config[counter]
 
+console.log(commandArgs)
+
 if (transactionConfig) {
   const date = transactionConfig.date || process.env.DATE
-  const counter = commandArgs.keep ? counter : process.env.COUNTER
   const { phone, sim, mobile } = transactionConfig
 
-  const filename = `${rootPath}/${commandArgs.keep ? 'keep' : 'transactions'}/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
+  const filename = `${rootPath}/${
+    commandArgs.keep ? 'keep' : 'transactions'
+  }/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
   console.log(filename)
 
   if (!fs.existsSync(filename)) {
@@ -27,7 +30,7 @@ if (transactionConfig) {
     let highestBalance = 0
     const referenceCodes = []
 
-    transactions.forEach(item => {
+    transactions.forEach((item) => {
       // get highest balance
       if (item.balance > highestBalance) {
         highestBalance = item.balance
@@ -40,7 +43,10 @@ if (transactionConfig) {
 
       // check unprocessed transaction
       if (!Boolean(item.id)) {
-        console.log('UNPROCESS TRANSACTION:', `mobile: ${item.mobile} | amount: ${item.amount} | reference: ${item.reference} | duty: ${item.duty}`)
+        console.log(
+          'UNPROCESS TRANSACTION:',
+          `mobile: ${item.mobile} | amount: ${item.amount} | reference: ${item.reference} | duty: ${item.duty}`
+        )
       }
 
       referenceCodes.push(item.reference)
