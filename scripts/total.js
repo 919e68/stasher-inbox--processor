@@ -10,7 +10,7 @@ const counter = commandArgs.counter || process.env.COUNTER
 const transactionConfig = config[counter]
 
 if (transactionConfig) {
-  const date = commandArgs.keep ? transactionConfig.date : process.env.DATE
+  const date = transactionConfig.date || process.env.DATE
   const counter = commandArgs.keep ? counter : process.env.COUNTER
   const { phone, sim, mobile } = transactionConfig
 

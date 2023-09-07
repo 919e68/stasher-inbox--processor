@@ -268,7 +268,13 @@ const config = {
     phone: '07',
     sim: '63',
     mobile: '0915-470-4990'
-  }
+  },
+  '000': {
+    date: 'SEP.00',
+    phone: '00',
+    sim: '00',
+    mobile: '0000-000-0000'
+  },
 }
 
 module.exports = {
