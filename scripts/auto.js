@@ -2,18 +2,23 @@ require('dotenv').config()
 const rootPath = process.cwd()
 
 const fs = require('fs')
+const axios = require('axios')
+
 const { parseArgs } = require(`${rootPath}/lib`)
 const { config } = require(`${rootPath}/config`)
 
 const { runShell } = require('../lib')
 const { extractType, extractTransaction } = require('../lib/gcash-extractor')
 
+// const API_URL = 'https://api.connectpay.live/api/auto-process'
+const API_URL = 'https://stasher-api-dev.spire.ph/api/auto-process'
+
 const commandArgs = parseArgs(process.argv)
 const counter = commandArgs.counter || process.env.COUNTER
 const transactionConfig = config[counter]
 
 const autoSuccess = async (inbox) => {
-  const data = axios.post('https://stasher-api-dev.spire.ph/api/auto-process', {
+  const data = await axios.post(API_URL, {
     password: '@!ABC12abc',
     type: "DEPOSIT",
     datetime: inbox.datetime,
@@ -26,8 +31,7 @@ const autoSuccess = async (inbox) => {
     duty: inbox.duty
   })
 
-  console.log(data)
-  return data
+  return data.data
 }
 
 const getTransaction = async () => {
@@ -88,10 +92,19 @@ getTransaction().then(async (transaction) => {
     transaction.id = ''
     transaction.note = ''
 
-    transactions.unshift(transaction)
-    fs.writeFileSync(filename, JSON.stringify(transactions, null, 2), 'utf8')
+    autoSuccess(transaction).then(data => {
+      if (data.ok && data.status === 'success') {
+        transaction.id = data.transactionId
+        console.log(`✔️✔️ MATCH TRANSACTION_ID: ${data.transactionId}`)
+      } else if (!data.ok && data.status === 'exists') {
+        console.log(`🟢🟢 REFERENCE EXISTS: ${transaction.reference}`)
+      } else {
+        console.log(`❌❌ THERE IS NO MATCH`)
+      }
 
-    autoSuccess(transaction)
+      transactions.unshift(transaction)
+      fs.writeFileSync(filename, JSON.stringify(transactions, null, 2), 'utf8')
+    })
 
     console.log('transaction saved.')
   }
