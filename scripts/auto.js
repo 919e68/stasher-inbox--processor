@@ -13,7 +13,7 @@ const counter = commandArgs.counter || process.env.COUNTER
 const transactionConfig = config[counter]
 
 const autoSuccess = async (inbox) => {
-  const data = axios.post('https://api.connectpay.live/api/auto-process', {
+  const data = axios.post('https://stasher-api-dev.spire.ph/api/auto-process', {
     password: '@!ABC12abc',
     type: "DEPOSIT",
     datetime: inbox.datetime,
@@ -74,9 +74,7 @@ getTransaction().then(async (transaction) => {
     const date = transactionConfig.date || process.env.DATE
     const { phone, sim, mobile } = transactionConfig
 
-    const filename = `${rootPath}/${
-      commandArgs.keep ? 'keep' : 'transactions'
-    }/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
+    const filename = `${rootPath}/${commandArgs.keep ? 'keep' : 'transactions'}/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
     console.log(filename)
 
     if (!fs.existsSync(filename)) {
@@ -91,8 +89,10 @@ getTransaction().then(async (transaction) => {
     transaction.note = ''
 
     transactions.unshift(transaction)
-
     fs.writeFileSync(filename, JSON.stringify(transactions, null, 2), 'utf8')
+
+    autoSuccess(transaction)
+
     console.log('transaction saved.')
   }
 })
