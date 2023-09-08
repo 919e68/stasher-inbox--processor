@@ -1,5 +1,33 @@
 [
   {
+    "type": "WITHDRAW",
+    "datetime": "2023-09-08 10:13 AM",
+    "amount": 100,
+    "name": "WI***N A.",
+    "mobile": "09473169689",
+    "msg": null,
+    "balance": 0,
+    "reference": "3011934485092",
+    "duty": "dags",
+    "num": 141,
+    "id": "",
+    "note": "TRANSFER TO GCASH-01"
+  },
+  {
+    "type": "DEPOSIT",
+    "datetime": "2023-09-07 06:15 PM",
+    "amount": 100,
+    "name": "JE**\"*A S.",
+    "mobile": "09423087038",
+    "msg": "1498",
+    "balance": 100,
+    "reference": "3011924348375",
+    "duty": "dags",
+    "num": 140,
+    "id": "",
+    "note": "REFUNDED FROM GCASH-01"
+  },
+  {
     "type": "DEPOSIT",
     "datetime": "2023-09-07 01:28 PM",
     "amount": 950,
