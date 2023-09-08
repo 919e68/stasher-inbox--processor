@@ -7,6 +7,7 @@
     "start": "node ./server.js",
     "dev": "nodemon ./server.js",
     "process": "node ./scripts/process.js",
+    "auto": "node ./scripts/auto.js",
     "total": "node ./scripts/total.js",
     "pull": "git pull origin main",
     "push": "git add . && git commit -m up && git pull origin main && git push origin main",
@@ -16,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "adbkit": "^2.11.1",
+    "axios": "^1.5.0",
     "dayjs": "^1.11.9",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",

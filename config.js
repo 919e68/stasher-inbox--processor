@@ -270,7 +270,7 @@ const config = {
     mobile: '0915-470-4990'
   },
   '000': {
-    date: 'SEP.00',
+    date: 'JAN.00',
     phone: '00',
     sim: '00',
     mobile: '0000-000-0000'
