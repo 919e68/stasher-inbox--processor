@@ -95,15 +95,20 @@ getTransaction().then(async (transaction) => {
     autoSuccess(transaction).then(data => {
       if (data.ok && data.status === 'success') {
         transaction.id = data.transactionId
+        transactions.unshift(transaction)
+        fs.writeFileSync(filename, JSON.stringify(transactions, null, 2), 'utf8')
+
         console.log(`✔️✔️ MATCH TRANSACTION_ID: ${data.transactionId}`)
       } else if (!data.ok && data.status === 'exists') {
         console.log(`🟢🟢 REFERENCE EXISTS: ${transaction.reference}`)
       } else {
+        transactions.unshift(transaction)
+        fs.writeFileSync(filename, JSON.stringify(transactions, null, 2), 'utf8')
+
         console.log(`❌❌ THERE IS NO MATCH`)
       }
 
-      transactions.unshift(transaction)
-      fs.writeFileSync(filename, JSON.stringify(transactions, null, 2), 'utf8')
+
     })
 
     console.log('transaction saved.')
