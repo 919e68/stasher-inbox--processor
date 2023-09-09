@@ -10,7 +10,8 @@
     "auto": "node ./scripts/auto.js",
     "total": "node ./scripts/total.js",
     "pull": "git pull origin main",
-    "push": "git add . && git commit -m up && git pull origin main && git push origin main",
+    "commit": "git add . && git commit -m up && git pull origin main",
+    "push": "git push origin main",
     "device": "adb devices"
   },
   "author": "",
