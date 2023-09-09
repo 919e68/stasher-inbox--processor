@@ -11,6 +11,7 @@ const { extractType, extractTransaction } = require('../lib/gcash-extractor')
 const commandArgs = parseArgs(process.argv)
 const counter = commandArgs.counter || process.env.COUNTER
 const transactionConfig = config[counter]
+const { phone, sim, wallet } = transactionConfig
 
 const getTransaction = async () => {
   // initialize folders
@@ -54,27 +55,28 @@ const getTransaction = async () => {
 getTransaction().then((transaction) => {
   if (transaction) {
     const date = transactionConfig.date || process.env.DATE
-    const { phone, sim, mobile } = transactionConfig
+    const filename = `${rootPath}/${commandArgs.keep ? 'keep' : 'transactions'}/${date}-${counter} (P-${phone} S-${sim}) ${wallet}.json`
 
-    const filename = `${rootPath}/${
-      commandArgs.keep ? 'keep' : 'transactions'
-    }/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
-    console.log(filename)
-
+    // initialize transaction file
     if (!fs.existsSync(filename)) {
       fs.writeFileSync(filename, '[]', 'utf8')
     }
 
     const content = fs.readFileSync(filename)
     const transactions = JSON.parse(content.toString())
+    const transactionReferences = transactions.map(item => item.reference)
+
     transaction.duty = process.env.DUTY
     transaction.num = transactions.length + 1
     transaction.id = ''
     transaction.note = ''
 
-    transactions.unshift(transaction)
-
-    fs.writeFileSync(filename, JSON.stringify(transactions, null, 2), 'utf8')
-    console.log('transaction saved.')
+    if (!transactionReferences.includes(transaction.reference)) {
+      transactions.unshift(transaction)
+      fs.writeFileSync(filename, JSON.stringify(transactions, null, 2), 'utf8')
+      console.log('✔️✔️ TRANSACTION SAVED LOCALLY')
+    } else {
+      console.log('🟢🟢 TRANSACTION ALREADY PROCESSED LOCALLY')
+    }
   }
 })
