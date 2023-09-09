@@ -78,7 +78,7 @@ const config = {
     mobile: '0977-093-6297'
   },
   '039': {
-    date: '',
+    date: 'SEP.08',
     phone: '07',
     sim: '66',
     mobile: '0977-463-3114'
@@ -274,7 +274,7 @@ const config = {
     phone: '00',
     sim: '00',
     mobile: '0000-000-0000'
-  },
+  }
 }
 
 module.exports = {
