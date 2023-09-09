@@ -72,7 +72,7 @@ const config = {
     mobile: '0967-433-7521'
   },
   '042': {
-    date: '',
+    date: 'SEP.09',
     phone: '10',
     sim: '74',
     mobile: '0977-093-6297'
