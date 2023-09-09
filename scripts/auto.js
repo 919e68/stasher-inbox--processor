@@ -11,8 +11,8 @@ const { runShell } = require('../lib')
 const { extractType, extractTransaction } = require('../lib/gcash-extractor')
 
 // const API_URL = 'https://api.connectpay.live/api/auto-process'
-// const API_URL = 'https://stasher-api-dev.spire.ph/api/auto-process'
-const API_URL = 'http://localhost:3002/api/auto-process'
+const API_URL = 'https://stasher-api-dev.spire.ph/api/auto-process'
+// const API_URL = 'http://localhost:3002/api/auto-process'
 
 const commandArgs = parseArgs(process.argv)
 const counter = commandArgs.counter || process.env.COUNTER
