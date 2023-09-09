@@ -66,10 +66,10 @@ const config = {
     wallet: '0977-463-3167'
   },
   '044': {
-    date: '',
+    date: 'SEP.10',
     phone: '12',
-    sim: '73',
-    wallet: '0967-433-7521'
+    sim: '59',
+    wallet: '0956-995-6208'
   },
   '042': {
     date: 'SEP.09',
@@ -274,7 +274,7 @@ const config = {
     phone: '00',
     sim: '00',
     wallet: '0947-316-9689'
-  },
+  }
 }
 
 module.exports = {
