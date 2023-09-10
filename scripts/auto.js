@@ -102,7 +102,7 @@ getTransaction().then(async (transaction) => {
     transaction.id = ''
     transaction.note = ''
 
-    autoSuccess(transaction).then(data => {
+    await autoSuccess(transaction).then(data => {
       if (data.ok && data.status === 'match') {
         transaction.id = data.transactionId
         console.log(`✔️✔️ MATCH TRANSACTION_ID: ${data.transactionId}`)
