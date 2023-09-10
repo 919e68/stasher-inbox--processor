@@ -894,19 +894,5 @@
     "num": 2,
     "id": "51760",
     "note": ""
-  },
-  {
-    "type": "DEPOSIT",
-    "datetime": "2023-09-10 04:51 AM",
-    "amount": 1,
-    "name": "WI***N A.",
-    "mobile": "09473169689",
-    "msg": null,
-    "balance": 1,
-    "reference": "0011969868498",
-    "duty": "naldo",
-    "num": 1,
-    "id": "",
-    "note": ""
   }
 ]
