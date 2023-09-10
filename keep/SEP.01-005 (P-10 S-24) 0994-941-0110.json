@@ -27,20 +27,7 @@
     "id": "45606",
     "note": ""
   },
-  {
-    "type": "DEPOSIT",
-    "datetime": "2023-09-01 10:08 PM",
-    "amount": 300,
-    "name": "CR*******R N.",
-    "mobile": "09501423137",
-    "msg": "7641",
-    "balance": 75043,
-    "reference": "6011816141109",
-    "duty": "jahn",
-    "num": 152,
-    "id": "",
-    "note": ""
-  },
+
   {
     "type": "DEPOSIT",
     "datetime": "2023-09-01 10:08 PM",
@@ -402,7 +389,7 @@
     "reference": "7011816209642",
     "duty": "jahn",
     "num": 126,
-    "id": "",
+    "id": "45637",
     "note": ""
   },
   {

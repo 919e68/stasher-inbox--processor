@@ -27,20 +27,7 @@
     "id": "",
     "note": "TRANSFER -> GCASH-01"
   },
-  {
-    "type": "DEPOSIT",
-    "datetime": "2023-09-06 09:53 PM",
-    "amount": 100,
-    "name": "KY*E O.",
-    "mobile": "09935037715",
-    "msg": null,
-    "balance": 34571,
-    "reference": "3011909569382",
-    "duty": "dags",
-    "num": 193,
-    "id": "",
-    "note": ""
-  },
+
   {
     "type": "DEPOSIT",
     "datetime": "2023-09-06 09:53 PM",

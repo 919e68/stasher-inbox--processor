@@ -626,7 +626,7 @@
     "reference": "5011935460621",
     "duty": "choks",
     "num": 110,
-    "id": "",
+    "id": "50654",
     "note": "req. 09568969220"
   },
   {
@@ -669,20 +669,6 @@
     "duty": "choks",
     "num": 107,
     "id": "50665",
-    "note": ""
-  },
-  {
-    "type": "DEPOSIT",
-    "datetime": "2023-09-08 11:04 AM",
-    "amount": 200,
-    "name": "AR™L M.",
-    "mobile": "09169426922",
-    "msg": null,
-    "balance": 62358,
-    "reference": "9011935395620",
-    "duty": "choks",
-    "num": 106,
-    "id": "",
     "note": ""
   },
   {
@@ -1354,8 +1340,8 @@
     "reference": "5011935073729",
     "duty": "choks",
     "num": 58,
-    "id": "",
-    "note": ""
+    "id": "50571",
+    "note": "di nalagay ID"
   },
   {
     "type": "DEPOSIT",

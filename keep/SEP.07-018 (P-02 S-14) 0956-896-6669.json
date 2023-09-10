@@ -486,8 +486,8 @@
     "reference": "7011913153228",
     "duty": "choks",
     "num": 59,
-    "id": "",
-    "note": ""
+    "id": "47537",
+    "note": "Di nalagay ID"
   },
   {
     "type": "DEPOSIT",
@@ -1049,20 +1049,7 @@
     "id": "47468",
     "note": ""
   },
-  {
-    "type": "DEPOSIT",
-    "datetime": "2023-09-07 06:18 AM",
-    "amount": 100,
-    "name": "JE***N P.",
-    "mobile": "09162645244",
-    "msg": null,
-    "balance": 64318,
-    "reference": "7011912480379",
-    "duty": "choks",
-    "num": 18,
-    "id": "",
-    "note": ""
-  },
+
   {
     "type": "DEPOSIT",
     "datetime": "2023-09-07 06:12 AM",

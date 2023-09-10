@@ -545,20 +545,7 @@
     "id": "46852",
     "note": ""
   },
-  {
-    "type": "DEPOSIT",
-    "datetime": "2023-09-06 11:38 PM",
-    "amount": 480,
-    "name": "RY*N JA‘*\"*E A.",
-    "mobile": "09351840227",
-    "msg": null,
-    "balance": 45495,
-    "reference": "8011910793620",
-    "duty": "naldo",
-    "num": 25,
-    "id": "46855",
-    "note": ""
-  },
+
   {
     "type": "DEPOSIT",
     "datetime": "2023-09-06 11:40 PM",

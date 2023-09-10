@@ -279,20 +279,7 @@
     "id": "46770",
     "note": ""
   },
-  {
-    "type": "DEPOSIT",
-    "datetime": "2023-09-06 09:32 PM",
-    "amount": 200,
-    "name": "JU***S A.",
-    "mobile": "09369816041",
-    "msg": "4438",
-    "balance": 18879,
-    "reference": "2011909238424",
-    "duty": "naldo",
-    "num": 73,
-    "id": "",
-    "note": ""
-  },
+
   {
     "type": "DEPOSIT",
     "datetime": "2023-09-06 10:37 PM",
@@ -487,7 +474,7 @@
     "duty": "naldo",
     "num": 59,
     "id": "",
-    "note": ""
+    "note": "transfer bank"
   },
   {
     "type": "DEPOSIT",

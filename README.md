@@ -1,24 +1,32 @@
-# phone check
+# InboxProcessor
+
+## phone check
 
 ```bash
-adb devices
+yarn device
 ```
 
-# process a transaction
+## process a transaction
 
 ```bash
-yarn process
+yarn auto
 ```
 
-# process late transaction
+## process late transaction
 
 ```bash
 # no need to update .env
 yarn process --keep --counter=000
 ```
 
-# check
+## check
 
 ```bash
 yarn total
+```
+
+## check total in keep
+
+```
+yarn total --keep  --counter=$000
 ```
