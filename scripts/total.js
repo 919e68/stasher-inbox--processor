@@ -8,16 +8,14 @@ const { config } = require(`${rootPath}/config`)
 const commandArgs = parseArgs(process.argv)
 const counter = commandArgs.counter || process.env.COUNTER
 const transactionConfig = config[counter]
-
-console.log(commandArgs)
+const { phone, sim, wallet } = transactionConfig
 
 if (transactionConfig) {
   const date = transactionConfig.date || process.env.DATE
-  const { phone, sim, mobile } = transactionConfig
 
   const filename = `${rootPath}/${
     commandArgs.keep ? 'keep' : 'transactions'
-  }/${date}-${counter} (P-${phone} S-${sim}) ${mobile}.json`
+  }/${date}-${counter} (P-${phone} S-${sim}) ${wallet}.json`
   console.log(filename)
 
   if (!fs.existsSync(filename)) {
