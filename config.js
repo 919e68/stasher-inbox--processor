@@ -12,13 +12,13 @@ const config = {
     wallet: '0977-093-6306'
   },
   '068': {
-    date: '',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.12',
+    phone: '04',
+    sim: '77',
+    wallet: '0977-093-6306'
   },
   '062': {
-    date: '',
+    date: 'SEP.12',
     phone: '14',
     sim: '54',
     wallet: '0945-584-2790'
