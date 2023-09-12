@@ -5,14 +5,68 @@ const config = {
     sim: '',
     wallet: ''
   },
+  '090': {
+    date: '',
+    phone: '09',
+    sim: '85',
+    wallet: '0939-728-7622'
+  },
+  '089': {
+    date: 'SEP.00',
+    phone: '06',
+    sim: '89',
+    wallet: '0931-011-4419'
+  },
+  '088': {
+    date: 'SEP.00',
+    phone: '03',
+    sim: '81',
+    wallet: '0939-728-7621'
+  },
+  '086': {
+    date: 'SEP.00',
+    phone: '02',
+    sim: '87',
+    wallet: '0915-471-3281'
+  },
+  '085': {
+    date: 'SEP.00',
+    phone: '00',
+    sim: '46',
+    wallet: '0977-465-0257'
+  },
+  '084': {
+    date: 'SEP.00',
+    phone: '12',
+    sim: '73',
+    wallet: '0967-433-7521'
+  },
+  '083': {
+    date: 'SEP.00',
+    phone: '09',
+    sim: '84',
+    wallet: '0939-728-7617'
+  },
+  '082': {
+    date: 'SEP.00',
+    phone: '06',
+    sim: '88',
+    wallet: '0931-099-0774'
+  },
+  '081': {
+    date: 'SEP.00',
+    phone: '04',
+    sim: '76',
+    wallet: '0908-488-0566'
+  },
   '080': {
-    date: 'SEP.12',
+    date: 'SEP.00',
     phone: '03',
     sim: '80',
     wallet: '0939-728-7620'
   },
   '079': {
-    date: 'SEP.12',
+    date: 'SEP.00',
     phone: '02',
     sim: '86',
     wallet: '0915-471-3291'
