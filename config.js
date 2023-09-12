@@ -1,15 +1,27 @@
 const config = {
   '': {
     date: '',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  '080': {
+    date: 'SEP.12',
+    phone: '03',
+    sim: '80',
+    wallet: '0939-728-7620'
+  },
+  '079': {
+    date: 'SEP.12',
+    phone: '02',
+    sim: '86',
+    wallet: '0915-471-3291'
+  },
+  '078': {
+    date: 'SEP.12',
     phone: '14',
     sim: '55',
     wallet: '0945-584-2762'
-  },
-  '078': {
-    date: '',
-    phone: '04',
-    sim: '77',
-    wallet: '0977-093-6306'
   },
   '068': {
     date: 'SEP.12',
