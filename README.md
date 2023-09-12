@@ -16,7 +16,7 @@ yarn auto
 
 ```bash
 # no need to update .env
-yarn process --keep --counter=000
+yarn auto --keep --counter=000
 ```
 
 ## check
