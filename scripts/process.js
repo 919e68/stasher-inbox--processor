@@ -66,6 +66,7 @@ getTransaction().then((transaction) => {
     const transactions = JSON.parse(content.toString())
     const transactionReferences = transactions.map(item => item.reference)
 
+    transaction.wallet = wallet.replaceAll('-', '')
     transaction.duty = process.env.DUTY
     transaction.num = transactions.length + 1
     transaction.id = ''

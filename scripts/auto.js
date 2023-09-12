@@ -115,7 +115,6 @@ getTransaction().then(async (transaction) => {
     })
 
     if (!transactionReferences.includes(transaction.reference)) {
-      delete transaction.wallet
       transactions.unshift(transaction)
       fs.writeFileSync(filename, JSON.stringify(transactions, null, 2), 'utf8')
     }
