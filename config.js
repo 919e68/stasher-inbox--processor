@@ -18,37 +18,43 @@ const config = {
     wallet: '0931-011-4419'
   },
   '088': {
-    date: 'SEP.00',
+    date: 'SEP.13',
+    phone: '04',
+    sim: '75',
+    wallet: '0945-584-2788'
+  },
+  '087': {
+    date: 'SEP.13',
     phone: '03',
     sim: '81',
     wallet: '0939-728-7621'
   },
   '086': {
-    date: 'SEP.00',
+    date: 'SEP.13',
     phone: '02',
     sim: '87',
     wallet: '0915-471-3281'
   },
   '085': {
-    date: 'SEP.00',
+    date: 'SEP.13',
     phone: '00',
     sim: '46',
     wallet: '0977-465-0257'
   },
   '084': {
-    date: 'SEP.00',
+    date: 'SEP.13',
     phone: '12',
     sim: '73',
     wallet: '0967-433-7521'
   },
   '083': {
-    date: 'SEP.00',
+    date: 'SEP.13',
     phone: '09',
     sim: '84',
     wallet: '0939-728-7617'
   },
   '082': {
-    date: 'SEP.00',
+    date: 'SEP.13',
     phone: '06',
     sim: '88',
     wallet: '0931-099-0774'
