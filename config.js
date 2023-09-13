@@ -54,7 +54,7 @@ const config = {
     wallet: '0931-099-0774'
   },
   '081': {
-    date: 'SEP.00',
+    date: 'SEP.13',
     phone: '04',
     sim: '76',
     wallet: '0908-488-0566'
