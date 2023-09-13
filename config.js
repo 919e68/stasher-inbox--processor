@@ -24,19 +24,19 @@ const config = {
     wallet: '0939-728-7621'
   },
   '086': {
-    date: 'SEP.00',
+    date: 'SEP.13',
     phone: '02',
     sim: '87',
     wallet: '0915-471-3281'
   },
   '085': {
-    date: 'SEP.00',
+    date: 'SEP.13',
     phone: '00',
     sim: '46',
     wallet: '0977-465-0257'
   },
   '084': {
-    date: 'SEP.00',
+    date: 'SEP.13',
     phone: '12',
     sim: '73',
     wallet: '0967-433-7521'
