@@ -1545,21 +1545,6 @@
     "note": ""
   },
   {
-    "type": "WITHDRAW",
-    "datetime": "2023-09-14 05:29 AM",
-    "amount": null,
-    "name": "SEABANK ACCOUNT ENDING IN 5872.",
-    "mobile": null,
-    "msg": null,
-    "balance": null,
-    "reference": null,
-    "wallet": "09154713281",
-    "duty": "naldo",
-    "num": 167,
-    "id": "",
-    "note": ""
-  },
-  {
     "type": "DEPOSIT",
     "datetime": "2023-09-14 05:24 AM",
     "amount": 500,
