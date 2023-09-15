@@ -5,13 +5,12 @@ const config = {
     sim: '',
     wallet: ''
   },
-  `100`: {
+  100: {
     date: 'SEP.15',
     phone: '05',
     sim: '43',
     wallet: '0905-503-3688'
   },
-
   '099': {
     date: 'SEP.15',
     phone: '04',
