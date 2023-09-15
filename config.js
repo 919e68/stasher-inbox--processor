@@ -2,14 +2,14 @@ const config = {
   107: {
     date: 'SEP.15',
     phone: '12',
-    sim: '24',
-    wallet: '0994-941-0110'
+    sim: '59',
+    wallet: '0956-995-6208'
   },
   106: {
     date: 'SEP.15',
     phone: '11',
-    sim: '24',
-    wallet: '0994-941-0110'
+    sim: '21',
+    wallet: '0927-747-5671'
   },
   105: {
     date: 'SEP.15',
