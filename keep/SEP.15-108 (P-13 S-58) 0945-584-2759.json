@@ -1,5 +1,20 @@
 [
   {
+    "type": "DEPOSIT",
+    "datetime": "2023-09-16 02:46 AM",
+    "amount": 100,
+    "name": "RA**L D.",
+    "mobile": "09913125843",
+    "msg": "8080",
+    "balance": 100,
+    "reference": "4012086168417",
+    "wallet": "09455842759",
+    "duty": "naldo",
+    "num": 147,
+    "id": "67974",
+    "note": ""
+  },
+  {
     "type": "WITHDRAW",
     "datetime": "2023-09-16 01:30 AM",
     "amount": 500,
