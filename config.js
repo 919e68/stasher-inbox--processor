@@ -60,7 +60,7 @@ const config = {
     wallet: '0977-463-3167'
   },
   123: {
-    date: 'SEP.',
+    date: 'SEP.16',
     phone: '12',
     sim: '73',
     wallet: '0967-433-7521'
