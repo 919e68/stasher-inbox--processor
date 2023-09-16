@@ -70,11 +70,16 @@ const getTransaction = async () => {
     fs.unlinkSync(`${outputTxt}.txt`)
   }
 
-  const cleanContent = content.toString().replace(/\n/g, ' ').replace(/ +/g, ' ')
+  const cleanContent = content
+    .toString()
+    .replace(/\n/g, ' ')
+    .replace(/ +/g, ' ')
   const transactionType = extractType(cleanContent)
-  const isExpressSendNotification = cleanContent.toLocaleLowerCase().indexOf('express send notification') !== -1
+  const isExpressSendNotification =
+    cleanContent.toLocaleLowerCase().indexOf('express send notification') !== -1
 
-  const isNotListScreen = cleanContent.toLocaleLowerCase().indexOf('latest') === -1
+  const isNotListScreen =
+    cleanContent.toLocaleLowerCase().indexOf('latest') === -1
   if (transactionType && isNotListScreen && isExpressSendNotification) {
     return extractTransaction(cleanContent, transactionType)
   }
@@ -85,7 +90,9 @@ const getTransaction = async () => {
 getTransaction().then(async (transaction) => {
   if (transaction) {
     const date = transactionConfig.date || process.env.DATE
-    const filename = `${rootPath}/${commandArgs.keep ? 'keep' : 'transactions'}/${date}-${counter} (P-${phone} S-${sim}) ${wallet}.json`
+    const filename = `${rootPath}/${
+      commandArgs.keep ? 'keep' : 'transactions'
+    }/${date}-${counter} (P-${phone} S-${sim}) ${wallet}.json`
 
     // initialize transaction file
     if (!fs.existsSync(filename)) {
@@ -94,7 +101,7 @@ getTransaction().then(async (transaction) => {
 
     const content = fs.readFileSync(filename)
     const transactions = JSON.parse(content.toString())
-    const transactionReferences = transactions.map(item => item.reference)
+    const transactionReferences = transactions.map((item) => item.reference)
 
     transaction.wallet = wallet.replaceAll('-', '')
     transaction.duty = process.env.DUTY
@@ -102,19 +109,26 @@ getTransaction().then(async (transaction) => {
     transaction.id = ''
     transaction.note = ''
 
-    await autoSuccess(transaction).then(data => {
-      if (data.ok && data.status === 'match') {
-        transaction.id = data.transactionId
-        console.log(`✔️✔️ MATCH TRANSACTION_ID: ${data.transactionId}`)
-      } else if (!data.ok && data.status === 'exists') {
-        console.log(`🟢🟢 TRANSACTION ALREADY PROCESSED FOR REF#: ${transaction.reference}`)
-      } else if (!data.ok && data.status === 'not_found') {
-        transaction.note = 'no_request'
-        console.log(`❌❌ THERE IS NO MATCH`)
-      }
-    })
+    await autoSuccess(transaction)
+      .then((data) => {
+        if (data.ok && data.status === 'match') {
+          transaction.id = data.transactionId
+          console.log(`✔️✔️ MATCH TRANSACTION_ID: ${data.transactionId}`)
+        } else if (!data.ok && data.status === 'exists') {
+          console.log(`🟢🟢 TRANSACTION ALREADY PROCESSED`, transaction)
+        } else if (!data.ok && data.status === 'not_found') {
+          transaction.note = 'no_request'
+          console.log(`❌❌ THERE IS NO MATCH`)
+        }
+      })
+      .catch((err) => {
+        console.log('❌❌ INVALID DATA', transaction)
+      })
 
-    if (!transactionReferences.includes(transaction.reference)) {
+    if (
+      transaction.reference &&
+      !transactionReferences.includes(transaction.reference)
+    ) {
       transactions.unshift(transaction)
       fs.writeFileSync(filename, JSON.stringify(transactions, null, 2), 'utf8')
     }
