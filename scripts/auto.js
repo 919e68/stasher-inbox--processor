@@ -126,7 +126,7 @@ getTransaction().then(async (transaction) => {
         }
       })
       .catch((err) => {
-        console.log('❌❌ INVALID DATA', transaction)
+        console.log('❌❌ INVALID DATA', transaction, err.response.data)
       })
 
     if (
