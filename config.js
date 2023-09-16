@@ -66,10 +66,10 @@ const config = {
     wallet: '0967-433-7521'
   },
   122: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.16',
+    phone: '10',
+    sim: '10',
+    wallet: '0970-824-7411'
   },
   121: {
     date: 'SEP.16',
