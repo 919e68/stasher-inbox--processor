@@ -30,19 +30,19 @@ const config = {
     wallet: ''
   },
   128: {
-    date: 'SEP.',
+    date: 'SEP.17',
     phone: '',
     sim: '',
     wallet: ''
   },
   127: {
-    date: 'SEP.',
+    date: 'SEP.17',
     phone: '00',
     sim: '92',
     wallet: '0960-412-6166'
   },
   126: {
-    date: 'SEP.',
+    date: 'SEP.17',
     phone: '16',
     sim: '28',
     wallet: '0977-464-3571'
