@@ -1,21 +1,69 @@
 const config = {
-  125: {
+  133: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
+  },
+  132: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  131: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  130: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  129: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  128: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  127: {
+    date: 'SEP.',
+    phone: '00',
+    sim: '92',
+    wallet: '0960-412-6166'
+  },
+  126: {
+    date: 'SEP.',
+    phone: '16',
+    sim: '28',
+    wallet: '0977-464-3571'
+  },
+  125: {
+    date: 'SEP.',
+    phone: '14',
+    sim: '68',
+    wallet: '0911-463-3408'
   },
   124: {
     date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '13',
+    sim: '60',
+    wallet: '0977-463-3167'
   },
   123: {
     date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '12',
+    sim: '73',
+    wallet: '0967-433-7521'
   },
   122: {
     date: 'SEP.',
