@@ -1,4 +1,42 @@
 const config = {
+  125: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  124: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  123: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  122: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  121: {
+    date: 'SEP.16',
+    phone: '09',
+    sim: '47',
+    wallet: '0969-179-1884'
+  },
+
+  120: {
+    date: 'SEP.16',
+    phone: '08',
+    sim: '65',
+    wallet: '0977-463-3391'
+  },
+
   119: {
     date: 'SEP.16',
     phone: '07',
