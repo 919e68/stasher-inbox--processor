@@ -19,6 +19,7 @@
   "dependencies": {
     "adbkit": "^2.11.1",
     "axios": "^1.5.0",
+    "copy-paste": "^1.5.3",
     "dayjs": "^1.11.9",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",

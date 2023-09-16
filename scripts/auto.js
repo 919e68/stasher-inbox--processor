@@ -3,6 +3,7 @@ const rootPath = process.cwd()
 
 const fs = require('fs')
 const axios = require('axios')
+const ncp = require('copy-paste')
 
 const { parseArgs } = require(`${rootPath}/lib`)
 const { config } = require(`${rootPath}/config`)
@@ -118,7 +119,10 @@ getTransaction().then(async (transaction) => {
           console.log(`🟢🟢 TRANSACTION ALREADY PROCESSED`, transaction)
         } else if (!data.ok && data.status === 'not_found') {
           transaction.note = 'no_request'
-          console.log(`❌❌ THERE IS NO MATCH`)
+          console.log(`❌❌ THERE IS NO MATCH`, transaction)
+          let displayText = `-${process.env.DUTY}\n\n`
+          displayText += JSON.stringify(transaction, null, 2)
+          ncp.copy(displayText)
         }
       })
       .catch((err) => {
