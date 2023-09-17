@@ -80,9 +80,9 @@ getTransaction().then((transaction) => {
     ) {
       transactions.unshift(transaction)
       fs.writeFileSync(filename, JSON.stringify(transactions, null, 2), 'utf8')
-      console.log('✔️✔️ TRANSACTION SAVED LOCALLY')
+      console.log('✔️✔️ TRANSACTION SAVED LOCALLY ✔️✔️')
     } else {
-      console.log(`🟢🟢 TRANSACTION ALREADY PROCESSED LOCALLY`, transaction)
+      console.log(`🟢🟢 TRANSACTION ALREADY PROCESSED LOCALLY 🟢🟢\n`, transaction)
     }
   }
 })

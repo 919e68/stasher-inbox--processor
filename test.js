@@ -1,36 +1,32 @@
+require('dotenv').config()
+const rootPath = process.cwd()
 
-// const fs = require('fs')
+const fs = require('fs')
 
 // const { runShell } = require('./lib')
-// const { extractType, extractTransaction } = require('./lib/gcash-extractor')
+const { extractType, extractTransaction } = require(`${rootPath}/lib/gcash-extractor`)
 
-// const getTransaction = async () => {
-//   const timestamp = Math.floor(new Date().getTime() / 1000)
+const content = `
+Today, 06:31 PM 0&8
 
-//   const path = '/sdcard/Download'
-//   const filename = `img_${timestamp}.png`
-//   const outputImg = './tmp/output.png'
-//   const outputTxt = './tmp/output'
+Express Send Notification
 
-//   await runShell(`adb shell screencap -p ${path}/${filename}`)
-//   await runShell(`adb pull ${path}/${filename} ${outputImg}`)
-//   await runShell(`adb shell rm ${path}/${filename}`)
-//   await runShell(`tesseract ${outputImg} ${outputTxt}`)
+You have received PHP 100.00 of GCash from M**
+CH********R U, 09497862082 w/ MSG: . Your new
+balance is PHP 9688.00. Ref. No. 7012121108038.
+`
 
-//   const content = fs.readFileSync(`${outputTxt}.txt`)
-//   const cleanContent = content.toString().replace(/\n/g, ' ').replace(/ +/g, ' ')
+const cleanContent = content
+.toString()
+.replace(/\n/g, ' ')
+.replace(/ +/g, ' ')
 
-//   const transactionType = extractType(cleanContent)
+const transactionType = extractType(cleanContent)
 
-//   if (transactionType) {
-//     return extractTransaction(cleanContent, transactionType)
-//   }
-
-//   return null
-// }
-
-// getTransaction().then(transaction => {
-//   console.log(transaction)
-// })
-
-console.log(process.argv)
+if (
+  transactionType &&
+  cleanContent.toLocaleLowerCase().indexOf('latest') === -1
+) {
+  const transaction = extractTransaction(cleanContent, transactionType)
+  console.log(transaction)
+}
