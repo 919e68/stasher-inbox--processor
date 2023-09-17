@@ -1,4 +1,28 @@
 const config = {
+  137: {
+    date: 'SEP.17',
+    phone: '10',
+    sim: '24',
+    wallet: '0994-941-0110'
+  },
+  136: {
+    date: 'SEP.17',
+    phone: '09',
+    sim: '47',
+    wallet: '0969-179-1884'
+  },
+  135: {
+    date: 'SEP.17',
+    phone: '08',
+    sim: '65',
+    wallet: '0977-463-3391'
+  },
+  134: {
+    date: 'SEP.17',
+    phone: '07',
+    sim: '67',
+    wallet: '0977-463-3410'
+  },
   133: {
     date: 'SEP.',
     phone: '06',
