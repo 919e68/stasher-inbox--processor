@@ -114,12 +114,15 @@ getTransaction().then(async (transaction) => {
       .then((data) => {
         if (data.ok && data.status === 'match') {
           transaction.id = data.transactionId
-          console.log(`✔️✔️ MATCH TRANSACTION_ID: ${data.transactionId}`)
+          console.log(`✔️✔️ MATCH TRANSACTION ✔️✔️\n`, { id: data.transactionId, amount: transaction.amount, mobile: transaction.mobile })
+
         } else if (!data.ok && data.status === 'exists') {
-          console.log(`🟢🟢 TRANSACTION ALREADY PROCESSED`, transaction)
+          console.log(`🟢🟢 TRANSACTION ALREADY PROCESSED 🟢🟢\n`, transaction)
+
         } else if (!data.ok && data.status === 'not_found') {
           transaction.note = 'no_request'
           console.log(`❌❌ THERE IS NO MATCH`, transaction)
+
           let displayText = `-${process.env.DUTY}\n\n`
           displayText += JSON.stringify(transaction, null, 2)
           ncp.copy(displayText)
