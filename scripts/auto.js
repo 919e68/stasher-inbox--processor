@@ -114,7 +114,7 @@ getTransaction().then(async (transaction) => {
       .then((data) => {
         if (data.ok && data.status === 'match') {
           transaction.id = data.transactionId
-          console.log(`✔️✔️ MATCH TRANSACTION ✔️✔️\n`, { id: data.transactionId, amount: transaction.amount, mobile: transaction.mobile })
+          console.log(`✔️✔️ MATCH TRANSACTION ✔️✔️\n`, { id: data.transactionId, amount: transaction.amount, mobile: transaction.mobile, reference: transaction.reference })
 
         } else if (!data.ok && data.status === 'exists') {
           console.log(`🟢🟢 TRANSACTION ALREADY PROCESSED 🟢🟢\n`, transaction)
