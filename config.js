@@ -25,15 +25,15 @@ const config = {
   },
   129: {
     date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '02',
+    sim: '14',
+    wallet: '0956-896-6669'
   },
   128: {
     date: 'SEP.17',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '01',
+    sim: '40',
+    wallet: '0998-450-2556'
   },
   127: {
     date: 'SEP.17',
