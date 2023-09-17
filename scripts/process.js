@@ -55,7 +55,9 @@ const getTransaction = async () => {
 getTransaction().then((transaction) => {
   if (transaction) {
     const date = transactionConfig.date || process.env.DATE
-    const filename = `${rootPath}/${commandArgs.keep ? 'keep' : 'transactions'}/${date}-${counter} (P-${phone} S-${sim}) ${wallet}.json`
+    const filename = `${rootPath}/${
+      commandArgs.keep ? 'keep' : 'transactions'
+    }/${date}-${counter} (P-${phone} S-${sim}) ${wallet}.json`
 
     // initialize transaction file
     if (!fs.existsSync(filename)) {
@@ -64,7 +66,7 @@ getTransaction().then((transaction) => {
 
     const content = fs.readFileSync(filename)
     const transactions = JSON.parse(content.toString())
-    const transactionReferences = transactions.map(item => item.reference)
+    const transactionReferences = transactions.map((item) => item.reference)
 
     transaction.wallet = wallet.replaceAll('-', '')
     transaction.duty = process.env.DUTY
@@ -72,12 +74,15 @@ getTransaction().then((transaction) => {
     transaction.id = ''
     transaction.note = ''
 
-    if (!transactionReferences.includes(transaction.reference)) {
+    if (
+      transaction.reference &&
+      !transactionReferences.includes(transaction.reference)
+    ) {
       transactions.unshift(transaction)
       fs.writeFileSync(filename, JSON.stringify(transactions, null, 2), 'utf8')
       console.log('✔️✔️ TRANSACTION SAVED LOCALLY')
     } else {
-      console.log('🟢🟢 TRANSACTION ALREADY PROCESSED LOCALLY')
+      console.log(`🟢🟢 TRANSACTION ALREADY PROCESSED LOCALLY`, transaction)
     }
   }
 })
