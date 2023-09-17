@@ -1,15 +1,16 @@
 const config = {
   133: {
     date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '06',
+    sim: '88',
+    wallet: '0931-099-0774'
   },
+
   132: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.17',
+    phone: '05',
+    sim: '44',
+    wallet: '0951-499-7039'
   },
   131: {
     date: 'SEP.17',
