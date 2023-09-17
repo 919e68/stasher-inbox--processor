@@ -114,14 +114,14 @@ getTransaction().then(async (transaction) => {
       .then((data) => {
         if (data.ok && data.status === 'match') {
           transaction.id = data.transactionId
-          console.log(`✔️✔️ MATCH TRANSACTION ✔️✔️\n`, { id: data.transactionId, amount: transaction.amount, mobile: transaction.mobile, reference: transaction.reference })
+          console.log(`✔️✔️  -- MATCH TRANSACTION -- ✔️✔️\n`, { id: data.transactionId, amount: transaction.amount, mobile: transaction.mobile, reference: transaction.reference, msg: transaction.msg })
 
         } else if (!data.ok && data.status === 'exists') {
           console.log(`🟢🟢 TRANSACTION ALREADY PROCESSED 🟢🟢\n`, transaction)
 
         } else if (!data.ok && data.status === 'not_found') {
           transaction.note = 'no_request'
-          console.log(`❌❌ THERE IS NO MATCH ❌❌`, transaction)
+          console.log(`❌❌ xx THERE IS NO MATCH xx ❌❌`, transaction)
 
           let displayText = `-${process.env.DUTY}\n\n`
           displayText += JSON.stringify(transaction, null, 2)
@@ -129,7 +129,7 @@ getTransaction().then(async (transaction) => {
         }
       })
       .catch((err) => {
-        console.log('❌❌ INVALID DATA ❌❌', transaction, err)
+        console.log('❌❌ xx INVALID DATA xx ❌❌', transaction, err)
       })
 
     if (
@@ -140,6 +140,6 @@ getTransaction().then(async (transaction) => {
       fs.writeFileSync(filename, JSON.stringify(transactions, null, 2), 'utf8')
     }
   } else {
-    console.log('❌❌ INVALID SCREEN ❌❌')
+    console.log('❌❌ xx INVALID SCREEN xx ❌❌')
   }
 })
