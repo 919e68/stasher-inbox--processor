@@ -91,9 +91,7 @@ const getTransaction = async () => {
 getTransaction().then(async (transaction) => {
   if (transaction) {
     const date = transactionConfig.date || process.env.DATE
-    const filename = `${rootPath}/${
-      commandArgs.keep ? 'keep' : 'transactions'
-    }/${date}-${counter} (P-${phone} S-${sim}) ${wallet}.json`
+    const filename = `${rootPath}/${commandArgs.keep ? 'keep' : 'transactions'}/${date}-${counter} (P-${phone} S-${sim}) ${wallet}.json`
 
     // initialize transaction file
     if (!fs.existsSync(filename)) {
