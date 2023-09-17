@@ -12,16 +12,16 @@ const config = {
     wallet: ''
   },
   131: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.17',
+    phone: '04',
+    sim: '79',
+    wallet: '0945-584-2778'
   },
   130: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.17',
+    phone: '03',
+    sim: '83',
+    wallet: '0908-344-8450'
   },
   129: {
     date: 'SEP.',
