@@ -1,15 +1,15 @@
 const config = {
   157: {
     date: 'SEP.19',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '02',
+    sim: '38',
+    wallet: '0945-584-2793'
   },
   156: {
     date: 'SEP.19',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '01',
+    sim: '105',
+    wallet: '0945-584-2802'
   },
   155: {
     date: 'SEP.19',
