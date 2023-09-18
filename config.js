@@ -6,25 +6,25 @@ const config = {
     wallet: ''
   },
   142: {
-    date: 'SEP.',
+    date: 'SEP.18',
     phone: '02',
     sim: '86',
     wallet: '0915-471-3291'
   },
   141: {
-    date: 'SEP.',
+    date: 'SEP.18',
     phone: '01',
     sim: '12',
     wallet: '0992-688-7592'
   },
   140: {
-    date: 'SEP.',
+    date: 'SEP.18',
     phone: '14',
     sim: '69',
     wallet: '0908-130-7434'
   },
   139: {
-    date: 'SEP.',
+    date: 'SEP.18',
     phone: '12',
     sim: '59',
     wallet: '0956-995-6208'
