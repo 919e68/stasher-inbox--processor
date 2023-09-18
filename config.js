@@ -1,4 +1,22 @@
 const config = {
+  153: {
+    date: 'SEP.18',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  152: {
+    date: 'SEP.18',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  151: {
+    date: 'SEP.18',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
   150: {
     date: 'SEP.18',
     phone: '10',
