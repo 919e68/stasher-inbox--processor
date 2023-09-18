@@ -1,6 +1,48 @@
 const config = {
+  150: {
+    date: 'SEP.18',
+    phone: '10',
+    sim: '10',
+    wallet: '0970-824-7411'
+  },
+  149: {
+    date: 'SEP.18',
+    phone: '09',
+    sim: '48',
+    wallet: '0951-118-4380'
+  },
+  148: {
+    date: 'SEP.18',
+    phone: '08',
+    sim: '62',
+    wallet: '0945-584-2798'
+  },
+  147: {
+    date: 'SEP.18',
+    phone: '07',
+    sim: '96',
+    wallet: '0931-025-7597'
+  },
+  146: {
+    date: 'SEP.18',
+    phone: '06',
+    sim: '89',
+    wallet: '0931-011-4419'
+  },
+  145: {
+    date: 'SEP.18',
+    phone: '05',
+    sim: '70',
+    wallet: '0950-611-3644'
+  },
+  144: {
+    date: 'SEP.18',
+    phone: '04',
+    sim: '78',
+    wallet: '0945-584-2780'
+  },
   143: {
-    date: 'SEP.',
+    date: 'SEP.18',
     phone: '',
     sim: '',
     wallet: ''
