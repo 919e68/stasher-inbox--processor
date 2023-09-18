@@ -13,9 +13,9 @@ const config = {
   },
   151: {
     date: 'SEP.18',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '11',
+    sim: '42',
+    wallet: '0945-487-3100'
   },
   150: {
     date: 'SEP.18',
