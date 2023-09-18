@@ -50,9 +50,9 @@ if (transactionConfig) {
       referenceCodes.push(item.reference)
 
       // total amount
-      if (item.type === 'DEPOSIT') {
+      if (item.type === 'RECEIVE') {
         totalDeposit += item.amount
-      } else if (item.type === 'WITHDRAW') {
+      } else if (item.type === 'SENT') {
         totalWithdraw += item.amount
       }
     })
