@@ -55,9 +55,9 @@ const config = {
   },
   144: {
     date: 'SEP.18',
-    phone: '04',
-    sim: '78',
-    wallet: '0945-584-2780'
+    phone: '03',
+    sim: '15',
+    wallet: '0919-413-8875'
   },
   143: {
     date: 'SEP.18',
