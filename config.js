@@ -1,4 +1,5 @@
 const config = {
+<<<<<<< HEAD
   165: {
     date: 'SEP.19',
     phone: '11',
@@ -10,6 +11,13 @@ const config = {
     phone: '09',
     sim: '84',
     wallet: '0939-728-7617'
+=======
+  162: {
+    date: 'SEP.19',
+    phone: '08',
+    sim: '65',
+    wallet: '0977-463-3391'
+>>>>>>> bb2c75caf8d3f164a1847d1728c9f10aaff2ad74
   },
   161: {
     date: 'SEP.19',
