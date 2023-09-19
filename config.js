@@ -1,15 +1,21 @@
 const config = {
-  175: {
+  176: {
     date: 'SEP.19',
     phone: '05',
     sim: '43',
     wallet: '0905-503-3688'
   },
-   174: {
+  175: {
     date: 'SEP.19',
     phone: '04',
     sim: '77',
     wallet: '0977-093-6306'
+  },
+   174: {
+    date: 'SEP.19',
+    phone: '03',
+    sim: '81',
+    wallet: '0939-728-7621'
   },
    173: {
     date: 'SEP.19',
