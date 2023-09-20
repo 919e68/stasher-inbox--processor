@@ -6,37 +6,37 @@ const config = {
     wallet: ''
   },
   201: {
-    date: '',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.21',
+    phone: '14',
+    sim: '53',
+    wallet: '0945-584-2792'
   },
   200: {
-    date: '',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.21',
+    phone: '13',
+    sim: '60',
+    wallet: '0977-463-3167'
   },
   199: {
-    date: '',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.21',
+    phone: '12',
+    sim: '59',
+    wallet: '0956-995-6208'
   },
  198: {
-    date: 'SEP.',
+    date: 'SEP.21',
     phone: '11',
     sim: '90',
     wallet: '0931-013-2304'
   },
  197: {
-    date: 'SEP.',
+    date: 'SEP.21',
     phone: '10',
     sim: '100',
     wallet: '0931-010-7337'
   },
  196: {
-    date: 'SEP.',
+    date: 'SEP.21',
     phone: '09',
     sim: '85',
     wallet: '0939-728-7622'
