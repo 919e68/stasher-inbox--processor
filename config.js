@@ -1,30 +1,48 @@
 const config = {
- 199: {
+ 202: {
+    date: '',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  201: {
+    date: '',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  200: {
+    date: '',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  199: {
     date: '',
     phone: '',
     sim: '',
     wallet: ''
   },
  198: {
-    date: '',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.',
+    phone: '11',
+    sim: '90',
+    wallet: '0931-013-2304'
   },
  197: {
-    date: '',
+    date: 'SEP.',
     phone: '10',
     sim: '100',
     wallet: '0931-010-7337'
   },
  196: {
-    date: '',
+    date: 'SEP.',
     phone: '09',
     sim: '85',
     wallet: '0939-728-7622'
   },
  195: {
-    date: '',
+    date: 'SEP.21',
     phone: '08',
     sim: '65',
     wallet: '0977-463-3391'
