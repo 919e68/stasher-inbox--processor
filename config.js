@@ -1,4 +1,10 @@
 const config = {
+  181: {
+    date: 'SEP.20',
+    phone: '11',
+    sim: '21',
+    wallet: '0927-747-5671'
+  },
   180: {
     date: 'SEP.20',
     phone: '10',
