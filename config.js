@@ -1,4 +1,46 @@
 const config = {
+ 194: {
+    date: 'SEP.20',
+    phone: '07',
+    sim: '63',
+    wallet: '0915-470-4990'
+  },
+  193: {
+    date: 'SEP.20',
+    phone: '05',
+    sim: '70',
+    wallet: '0950-611-3644'
+  },
+  192: {
+    date: 'SEP.20',
+    phone: '04',
+    sim: '76',
+    wallet: '0908-488-0566'
+  },
+  191: {
+    date: 'SEP.20',
+    phone: '03',
+    sim: '82',
+    wallet: '0908-418-6935'
+  },
+  190: {
+    date: 'SEP.20',
+    phone: '02',
+    sim: '38',
+    wallet: '0945-584-2793'
+  },
+  189: {
+    date: 'SEP.20',
+    phone: '01',
+    sim: '40',
+    wallet: '0998-450-2556'
+  },
+  188: {
+    date: 'SEP.20',
+    phone: '00',
+    sim: '95',
+    wallet: '0960-412-6200'
+  },
   187: {
     date: 'SEP.20',
     phone: '17',
