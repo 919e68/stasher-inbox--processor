@@ -1,4 +1,10 @@
 const config = {
+  216: {
+    date: 'SEP.21',
+    phone: 'S23',
+    sim: '15',
+    wallet: '0919-413-8875'
+  },
   215: {
     date: 'SEP.21',
     phone: '',
