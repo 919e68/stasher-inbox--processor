@@ -1,9 +1,69 @@
 const config = {
+  215: {
+    date: 'SEP.21',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  214: {
+    date: 'SEP.21',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  213: {
+    date: 'SEP.21',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  212: {
+    date: 'SEP.21',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  211: {
+    date: 'SEP.21',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  210: {
+    date: 'SEP.21',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  209: {
+    date: 'SEP.21',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  208: {
+    date: 'SEP.21',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  207: {
+    date: 'SEP.21',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  206: {
+    date: 'SEP.21',
+    phone: '01',
+    sim: '106',
+    wallet: '0915-646-7902'
+  },
   205: {
     date: 'SEP.21',
     phone: '00',
-    sim: '103',
-    wallet: '0915-646-7877'
+    sim: '46',
+    wallet: '0977-465-0257'
   },
   204: {
     date: 'SEP.21',
