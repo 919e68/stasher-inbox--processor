@@ -1,5 +1,23 @@
 const config = {
- 202: {
+  205: {
+    date: 'SEP.21',
+    phone: '00',
+    sim: '103',
+    wallet: '0915-646-7877'
+  },
+  204: {
+    date: 'SEP.21',
+    phone: '17',
+    sim: '103',
+    wallet: '0915-646-7877'
+  },
+  203: {
+    date: 'SEP.21',
+    phone: '16',
+    sim: '28',
+    wallet: '0977-464-3571'
+  },
+  202: {
     date: '',
     phone: '',
     sim: '',
