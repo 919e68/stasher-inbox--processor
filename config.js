@@ -18,7 +18,7 @@ const config = {
     wallet: '0945-584-2762'
   },
   231: {
-    date: 'SEP.22',
+    date: 'SEP.24',
     phone: '13',
     sim: '58',
     wallet: '0945-584-2759'
