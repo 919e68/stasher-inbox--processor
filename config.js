@@ -102,7 +102,7 @@ const config = {
     wallet: '0977-463-3408'
   },
   244: {
-    date: 'SEP.23',
+    date: 'SEP.25',
     phone: '13',
     sim: '118',
     wallet: '0915-646-7852'
