@@ -6,7 +6,7 @@ const config = {
     wallet: '0915-646-7852'
   },
   243: {
-    date: 'SEP.23',
+    date: 'SEP.24',
     phone: '12',
     sim: '123',
     wallet: '0915-646-7909'
@@ -18,13 +18,13 @@ const config = {
     wallet: '0931-013-2304'
   },
   241: {
-    date: 'SEP.23',
+    date: 'SEP.24',
     phone: '10',
     sim: '99',
     wallet: '0915-646-7905'
   },
   240: {
-    date: 'SEP.23',
+    date: 'SEP.24',
     phone: '09',
     sim: '48',
     wallet: '0951-118-4380'
