@@ -84,19 +84,19 @@ const config = {
     wallet: '0956-896-6669'
   },
   247: {
-    date: 'SEP.',
+    date: 'SEP.25',
     phone: '01',
     sim: '106',
     wallet: '0915-646-7902'
   },
   246: {
-    date: 'SEP.',
+    date: 'SEP.25',
     phone: '00',
     sim: '95',
     wallet: '0960-412-6200'
   },
   245: {
-    date: 'SEP.',
+    date: 'SEP.25',
     phone: '14',
     sim: '68',
     wallet: '0977-463-3408'
