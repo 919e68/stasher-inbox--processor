@@ -37,9 +37,9 @@ const config = {
   },
   273: {
     date: 'SEP.25',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '10',
+    sim: '10',
+    wallet: '0970-824-7411'
   },
   272: {
     date: 'SEP.26',
