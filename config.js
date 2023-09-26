@@ -1,72 +1,72 @@
 const config = {
   296: {
-    date: 'SEP.26',
+    date: 'SEP.27',
     phone: '17',
     sim: '101',
     wallet: '0915-646-7832'
   },
   295: {
-    date: 'SEP.26',
+    date: 'SEP.27',
     phone: '16',
     sim: '29',
     wallet: '0945-487-3097'
   },
   294: {
-    date: 'SEP.26',
+    date: 'SEP.27',
     phone: '14',
     sim: '55',
     wallet: '0945-584-2762'
   },
   293: {
-    date: 'SEP.26',
+    date: 'SEP.27',
     phone: '13',
     sim: '60',
     wallet: '0977-463-3167'
   },
   292: {
-    date: 'SEP.26',
+    date: 'SEP.27',
     phone: '12',
     sim: '73',
     wallet: '0967-433-7521'
   },
   291: {
-    date: 'SEP.26',
+    date: 'SEP.27',
     phone: '11',
     sim: '21',
     wallet: '0927-747-5671'
   },
   290: {
-    date: 'SEP.26',
+    date: 'SEP.27',
     phone: '10',
     sim: '100',
     wallet: '0931-010-7337'
   },
   289: {
-    date: 'SEP.26',
+    date: 'SEP.27',
     phone: '09',
     sim: '48',
     wallet: '0951-118-4380'
   },
   288: {
-    date: 'SEP.26',
+    date: 'SEP.27',
     phone: '08',
     sim: '117',
     wallet: '0915-646-7875'
   },
   287: {
-    date: 'SEP.26',
+    date: 'SEP.27',
     phone: '07',
     sim: '63',
     wallet: '0915-470-4990'
   },
   286: {
-    date: 'SEP.26',
+    date: 'SEP.27',
     phone: '06',
     sim: '111',
     wallet: '0915-646-7858'
   },
   285: {
-    date: 'SEP.26',
+    date: 'SEP.27',
     phone: '05',
     sim: '43',
     wallet: '0905-503-3688'
