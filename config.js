@@ -1,83 +1,83 @@
 const config = {
-  314: {
+  328: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
-  314: {
+  327: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
-  314: {
+  326: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
-  314: {
+  325: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
-  314: {
+  324: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
-  314: {
+  323: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
-  314: {
+  322: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
-  314: {
+  321: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
-  314: {
+  320: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
-  314: {
+  319: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
-  314: {
+  318: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
-  314: {
+  317: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
-  314: {
+  316: {
     date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
-  314: {
+  315: {
     date: 'SEP.',
     phone: '',
     sim: '',
@@ -85,10 +85,10 @@ const config = {
   },
 
   314: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.27',
+    phone: '00',
+    sim: '91',
+    wallet: '0960-412-6165'
   },
   313: {
     date: 'SEP.27',
