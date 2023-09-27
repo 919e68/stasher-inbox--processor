@@ -1,4 +1,95 @@
 const config = {
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+
+  314: {
+    date: 'SEP.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
   313: {
     date: 'SEP.27',
     phone: '17',
