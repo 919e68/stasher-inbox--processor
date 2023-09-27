@@ -78,10 +78,10 @@ const config = {
     wallet: ''
   },
   315: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.28',
+    phone: '01',
+    sim: '107',
+    wallet: '0915-646-7826'
   },
 
   314: {
