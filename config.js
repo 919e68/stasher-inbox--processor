@@ -60,10 +60,10 @@ const config = {
     wallet: ''
   },
   318: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.28',
+    phone: '04',
+    sim: '77',
+    wallet: '0977-093-6306'
   },
   317: {
     date: 'SEP.',
