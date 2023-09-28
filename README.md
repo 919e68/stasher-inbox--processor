@@ -27,6 +27,4 @@ yarn total
 
 ## check total in keep
 
-```
 yarn total --keep  --counter=$000
-```

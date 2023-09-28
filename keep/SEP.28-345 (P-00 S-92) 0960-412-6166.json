@@ -1,21 +1,6 @@
 [
   {
     "type": "RECEIVE",
-    "datetime": "2023-09-29 12:02 AM",
-    "amount": 200,
-    "name": "JO***A C.",
-    "mobile": "09516919148",
-    "msg": null,
-    "balance": 518,
-    "reference": "0012339962506",
-    "wallet": "09604126166",
-    "duty": "mrbrown",
-    "num": 124,
-    "id": "",
-    "note": "no_request"
-  },
-  {
-    "type": "RECEIVE",
     "datetime": "2023-09-28 11:25 PM",
     "amount": 200,
     "name": "JH*™**N P.",
