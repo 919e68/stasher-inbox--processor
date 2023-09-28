@@ -61,9 +61,9 @@ const config = {
   },
   344: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '17',
+    sim: '103',
+    wallet: '0915-646-7877'
   },
   343: {
     date: 'SEP.28',
