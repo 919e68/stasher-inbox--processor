@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const config = {
   328: {
     date: 'SEP.',
