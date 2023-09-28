@@ -36,10 +36,10 @@ const config = {
     wallet: ''
   },
   322: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.28',
+    phone: '08',
+    sim: '62',
+    wallet: '0945-584-2798'
   },
   321: {
     date: 'SEP.',
@@ -67,9 +67,9 @@ const config = {
   },
   317: {
     date: 'SEP.',
-    phone: '03',
-    sim: '82',
-    wallet: '0908-418-6935'
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   316: {
     date: 'SEP.28',
