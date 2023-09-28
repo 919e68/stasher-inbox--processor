@@ -101,12 +101,7 @@ const config = {
     sim: '81',
     wallet: '0939-728-7621'
   },
-  347: {
-    date: 'SEP.28',
-    phone: '02',
-    sim: '86',
-    wallet: '0915-471-3291'
-  },
+
   346: {
     date: 'SEP.28',
     phone: '01',
