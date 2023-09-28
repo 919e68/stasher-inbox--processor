@@ -67,33 +67,33 @@ const config = {
   },
   343: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '16',
+    sim: '29',
+    wallet: '0945-487-3097'
   },
   342: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '14',
+    sim: '53',
+    wallet: '0945-584-2792'
   },
   341: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '13',
+    sim: '119',
+    wallet: '0915-646-7914'
   },
   340: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '12',
+    sim: '125',
+    wallet: '0912-336-0365'
   },
   339: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '11',
+    sim: '127',
+    wallet: '0912-335-9745'
   },
   338: {
     date: 'SEP.28',
