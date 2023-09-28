@@ -35,29 +35,29 @@ const config = {
     sim: '',
     wallet: ''
   },
-  343: {
+  348: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '03',
+    sim: '82',
+    wallet: '0908-418-6935'
   },
   347: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '02',
+    sim: '86',
+    wallet: '0915-471-3291'
   },
   346: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '01',
+    sim: '12',
+    wallet: '0992-688-7592'
   },
   345: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '00',
+    sim: '92',
+    wallet: '0960-412-6166'
   },
   344: {
     date: 'SEP.28',
