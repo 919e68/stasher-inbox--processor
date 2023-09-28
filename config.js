@@ -97,27 +97,27 @@ const config = {
   },
   338: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '10',
+    sim: '99',
+    wallet: '0915-646-7905'
   },
   337: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '08',
+    sim: '114',
+    wallet: '0963-680-7732'
   },
   336: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '07',
+    sim: '97',
+    wallet: '0915-646-7908'
   },
   335: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '06',
+    sim: '113',
+    wallet: '0915-646-7900'
   },
   334: {
     date: 'SEP.28',
