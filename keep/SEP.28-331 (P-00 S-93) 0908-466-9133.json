@@ -1,6 +1,7 @@
 [
   {
     "type": "RECEIVE",
+<<<<<<< HEAD
     "datetime": "2023-09-28 03:11 PM",
     "amount": 200,
     "name": "JU***N ED**R A.",
@@ -2072,10 +2073,14 @@
   {
     "type": "RECEIVE",
     "datetime": "2023-09-28 02:45 PM",
+=======
+    "datetime": "2023-09-28 03:22 PM",
+>>>>>>> 7eec90599391d2830cc0e3672e648eacb3cb676c
     "amount": 300,
     "name": "ME****O B.",
     "mobile": "09159856417",
     "msg": null,
+<<<<<<< HEAD
     "balance": 10035,
     "reference": "3012330030317",
     "wallet": "09084669133",
@@ -2367,6 +2372,29 @@
     "duty": "louie",
     "num": 1,
     "id": 134256,
+=======
+    "balance": 92648,
+    "reference": "3012330708893",
+    "wallet": "09084669133",
+    "duty": "jahn",
+    "num": 2,
+    "id": "",
+    "note": "no_request"
+  },
+  {
+    "type": "RECEIVE",
+    "datetime": "2023-09-28 03:20 PM",
+    "amount": 200,
+    "name": "FR***Y N.",
+    "mobile": "09993471702",
+    "msg": null,
+    "balance": 92348,
+    "reference": "2012330668847",
+    "wallet": "09084669133",
+    "duty": "jahn",
+    "num": 1,
+    "id": 134316,
+>>>>>>> 7eec90599391d2830cc0e3672e648eacb3cb676c
     "note": ""
   }
 ]
