@@ -121,27 +121,27 @@ const config = {
   },
   334: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '04',
+    sim: '75',
+    wallet: '0945-584-2788'
   },
   333: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '03',
+    sim: '80',
+    wallet: '0939-728-7620'
   },
   332: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '01',
+    sim: '105',
+    wallet: '0945-584-2802'
   },
   331: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '00',
+    sim: '93',
+    wallet: '0908-466-9133'
   },
 
   330: {
