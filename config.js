@@ -1,45 +1,45 @@
 const config = {
   343: {
-    date: 'SEP.28',
+    date: 'SEP.',
     phone: '',
     sim: '',
     wallet: ''
   },
   343: {
-    date: 'SEP.28',
+    date: 'SEP.29',
     phone: '',
     sim: '',
     wallet: ''
   },
-  343: {
-    date: 'SEP.28',
+  350: {
+    date: 'SEP.29',
     phone: '',
     sim: '',
     wallet: ''
   },
-  343: {
-    date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+  352: {
+    date: 'SEP.29',
+    phone: '07',
+    sim: '96',
+    wallet: '0931-025-7597'
   },
-  343: {
-    date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+  350: {
+    date: 'SEP.29',
+    phone: '06',
+    sim: '108',
+    wallet: '0915-646-7867'
   },
-  343: {
-    date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+  349: {
+    date: 'SEP.29',
+    phone: '04',
+    sim: '56',
+    wallet: '0945-584-2800'
   },
   348: {
     date: 'SEP.28',
     phone: '03',
-    sim: '82',
-    wallet: '0908-418-6935'
+    sim: '81',
+    wallet: '0939-728-7621'
   },
   347: {
     date: 'SEP.28',
