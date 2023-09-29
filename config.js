@@ -103,57 +103,57 @@ const config = {
   },
   373: {
     date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '17',
+    sim: '104',
+    wallet: '0908-421-4713'
   },
   372: {
     date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '14',
+    sim: '69',
+    wallet: '0908-130-7434'
   },
   371: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.29',
+    phone: '13',
+    sim: '119',
+    wallet: '0915-646-7914'
   },
   370: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.29',
+    phone: '12',
+    sim: '122',
+    wallet: '0915-646-7793'
   },
   369: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.29',
+    phone: '11',
+    sim: '127',
+    wallet: '0912-335-9745'
   },
   368: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.29',
+    phone: '10',
+    sim: '99',
+    wallet: '0915-646-7905'
   },
   367: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.29',
+    phone: '08',
+    sim: '114',
+    wallet: '0963-680-7732'
   },
   366: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.29',
+    phone: '07',
+    sim: '97',
+    wallet: '0915-646-7908'
   },
   365: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.29',
+    phone: '06',
+    sim: '112',
+    wallet: '0915-646-7850'
   },
   364: {
     date: 'SEP.29',
