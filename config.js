@@ -1,99 +1,99 @@
 const config = {
   390: {
-    date: 'SEP.',
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
   389: {
-    date: 'SEP.',
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
   388: {
-    date: 'SEP.',
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
   387: {
-    date: 'SEP.',
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
   386: {
-    date: 'SEP.',
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
   385: {
-    date: 'SEP.',
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
   384: {
-    date: 'SEP.',
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
   383: {
-    date: 'SEP.',
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
   382: {
-    date: 'SEP.',
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
   381: {
-    date: 'SEP.',
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
   380: {
-    date: 'SEP.',
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
   379: {
-    date: 'SEP.',
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
   378: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.30',
+    phone: '06',
+    sim: '113',
+    wallet: '0915-646-7900'
   },
   377: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.30',
+    phone: '04',
+    sim: '79',
+    wallet: '0945-584-2778'
   },
   376: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.30',
+    phone: '03',
+    sim: '82',
+    wallet: '0908-418-6935'
   },
   375: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.30',
+    phone: '01',
+    sim: '107',
+    wallet: '0915-646-7826'
   },
   374: {
     date: 'SEP.30',
