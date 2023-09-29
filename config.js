@@ -1768,149 +1768,341 @@ module.exports = {
 }
 =======
 const config = {
-  343: {
-    date: 'SEP.28',
+  390: {
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
-  343: {
-    date: 'SEP.28',
+  389: {
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
-  343: {
-    date: 'SEP.28',
+  388: {
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
-  343: {
-    date: 'SEP.28',
+  387: {
+    date: 'SEP.30',
     phone: '',
     sim: '',
     wallet: ''
   },
-  343: {
-    date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+  386: {
+    date: 'SEP.30',
+    phone: '17',
+    sim: '101',
+    wallet: '0915-646-7832'
   },
-  343: {
-    date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+  385: {
+    date: 'SEP.30',
+    phone: '14',
+    sim: '55',
+    wallet: '0945-584-2762'
   },
-  343: {
-    date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+  384: {
+    date: 'SEP.30',
+    phone: '13',
+    sim: '120',
+    wallet: '0915-646-7807'
   },
-  347: {
+  383: {
+    date: 'SEP.30',
+    phone: '12',
+    sim: '126',
+    wallet: '0912-331-3085'
+  },
+  382: {
+    date: 'SEP.30',
+    phone: '11',
+    sim: '128',
+    wallet: '0912-336-0685'
+  },
+  381: {
+    date: 'SEP.30',
+    phone: '10',
+    sim: '100',
+    wallet: '0931-010-7337'
+  },
+  380: {
+    date: 'SEP.30',
+    phone: '08',
+    sim: '117',
+    wallet: '0915-646-7875'
+  },
+  379: {
+    date: 'SEP.30',
+    phone: '07',
+    sim: '66',
+    wallet: '0977-463-3114'
+  },
+  378: {
+    date: 'SEP.30',
+    phone: '06',
+    sim: '113',
+    wallet: '0915-646-7900'
+  },
+  377: {
+    date: 'SEP.30',
+    phone: '04',
+    sim: '79',
+    wallet: '0945-584-2778'
+  },
+  376: {
+    date: 'SEP.30',
+    phone: '03',
+    sim: '82',
+    wallet: '0908-418-6935'
+  },
+  375: {
+    date: 'SEP.30',
+    phone: '01',
+    sim: '107',
+    wallet: '0915-646-7826'
+  },
+  374: {
+    date: 'SEP.30',
+    phone: '00',
+    sim: '46',
+    wallet: '0977-465-0257'
+  },
+  373: {
+    date: 'SEP.29',
+    phone: '17',
+    sim: '104',
+    wallet: '0908-421-4713'
+  },
+  372: {
+    date: 'SEP.29',
+    phone: '14',
+    sim: '69',
+    wallet: '0908-130-7434'
+  },
+  371: {
+    date: 'SEP.29',
+    phone: '13',
+    sim: '119',
+    wallet: '0915-646-7914'
+  },
+  370: {
+    date: 'SEP.29',
+    phone: '12',
+    sim: '122',
+    wallet: '0915-646-7793'
+  },
+  369: {
+    date: 'SEP.29',
+    phone: '11',
+    sim: '127',
+    wallet: '0912-335-9745'
+  },
+  368: {
+    date: 'SEP.29',
+    phone: '10',
+    sim: '99',
+    wallet: '0915-646-7905'
+  },
+  367: {
+    date: 'SEP.29',
+    phone: '08',
+    sim: '114',
+    wallet: '0963-680-7732'
+  },
+  366: {
+    date: 'SEP.29',
+    phone: '07',
+    sim: '97',
+    wallet: '0915-646-7908'
+  },
+  365: {
+    date: 'SEP.29',
+    phone: '06',
+    sim: '112',
+    wallet: '0915-646-7850'
+  },
+  364: {
+    date: 'SEP.29',
+    phone: '04',
+    sim: '75',
+    wallet: '0945-584-2788'
+  },
+  363: {
+    date: 'SEP.29',
+    phone: '03',
+    sim: '57',
+    wallet: '0945-584-2801'
+  },
+  362: {
+    date: 'SEP.29',
+    phone: '01',
+    sim: '105',
+    wallet: '0945-584-2802'
+  },
+  361: {
+    date: 'SEP.29',
+    phone: '00',
+    sim: '91',
+    wallet: '0960-412-6165'
+  },
+  360: {
+    date: 'SEP.29',
+    phone: '17',
+    sim: '102',
+    wallet: '0915-646-7912'
+  },
+  358: {
+    date: 'SEP.29',
+    phone: '14',
+    sim: '54',
+    wallet: '0945-584-2790'
+  },
+  357: {
+    date: 'SEP.29',
+    phone: '13',
+    sim: '118',
+    wallet: '0915-646-7852'
+  },
+  356: {
+    date: 'SEP.29',
+    phone: '12',
+    sim: '123',
+    wallet: '0915-646-7909'
+  },
+  355: {
+    date: 'SEP.29',
+    phone: '11',
+    sim: '128',
+    wallet: '0912-336-0685'
+  },
+  353: {
+    date: 'SEP.29',
+    phone: '08',
+    sim: '115',
+    wallet: '0908-518-8144'
+  },
+  352: {
+    date: 'SEP.29',
+    phone: '07',
+    sim: '96',
+    wallet: '0931-025-7597'
+  },
+  351: {
+    date: 'SEP.29',
+    phone: '06',
+    sim: '108',
+    wallet: '0915-646-7867'
+  },
+  349: {
+    date: 'SEP.29',
+    phone: '04',
+    sim: '56',
+    wallet: '0945-584-2800'
+  },
+  348: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '03',
+    sim: '81',
+    wallet: '0939-728-7621'
   },
   346: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '01',
+    sim: '12',
+    wallet: '0992-688-7592'
   },
   345: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '00',
+    sim: '92',
+    wallet: '0960-412-6166'
   },
   344: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '17',
+    sim: '103',
+    wallet: '0915-646-7877'
   },
   343: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '16',
+    sim: '29',
+    wallet: '0945-487-3097'
   },
   342: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '14',
+    sim: '53',
+    wallet: '0945-584-2792'
   },
   341: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '13',
+    sim: '119',
+    wallet: '0915-646-7914'
   },
   340: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '12',
+    sim: '125',
+    wallet: '0912-336-0365'
   },
   339: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '11',
+    sim: '127',
+    wallet: '0912-335-9745'
   },
   338: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '10',
+    sim: '99',
+    wallet: '0915-646-7905'
   },
   337: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '08',
+    sim: '114',
+    wallet: '0963-680-7732'
   },
   336: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '07',
+    sim: '97',
+    wallet: '0915-646-7908'
   },
   335: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '06',
+    sim: '113',
+    wallet: '0915-646-7900'
   },
   334: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '04',
+    sim: '75',
+    wallet: '0945-584-2788'
   },
   333: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '03',
+    sim: '80',
+    wallet: '0939-728-7620'
   },
   332: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '01',
+    sim: '105',
+    wallet: '0945-584-2802'
   },
   331: {
     date: 'SEP.28',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '00',
+    sim: '93',
+    wallet: '0908-466-9133'
   },
 
   330: {
