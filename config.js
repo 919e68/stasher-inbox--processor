@@ -96,10 +96,10 @@ const config = {
     wallet: ''
   },
   374: {
-    date: 'SEP.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'SEP.30',
+    phone: '00',
+    sim: '46',
+    wallet: '0977-465-0257'
   },
   373: {
     date: 'SEP.29',
