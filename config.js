@@ -1,10 +1,4 @@
 const config = {
-  403: {
-    date: 'SEP.30',
-    phone: '03',
-    sim: '80',
-    wallet: '0939-728-7620'
-  },
   419: {
     date: '.',
     phone: '',
@@ -102,7 +96,7 @@ const config = {
     wallet: '0915-646-7850'
   },
   403: {
-    date: 'OCT.01',
+    date: 'Oct.01',
     phone: '04',
     sim: '77',
     wallet: '0977-093-6306'
