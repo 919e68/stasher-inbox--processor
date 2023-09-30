@@ -1,4 +1,40 @@
 const config = {
+  399: {
+    date: 'SEP.30',
+    phone: '17',
+    sim: '102',
+    wallet: '0915-646-7912'
+  },
+  398: {
+    date: 'SEP.30',
+    phone: '14',
+    sim: '54',
+    wallet: '0945-584-2790'
+  },
+  397: {
+    date: 'SEP.30',
+    phone: '13',
+    sim: '118',
+    wallet: '0915-646-7852'
+  },
+  396: {
+    date: 'SEP.30',
+    phone: '12',
+    sim: '123',
+    wallet: '0915-646-7909'
+  },
+  395: {
+    date: 'SEP.30',
+    phone: '11',
+    sim: '21',
+    wallet: '0927-747-5671'
+  },
+  394: {
+    date: 'SEP.30',
+    phone: '10',
+    sim: '24',
+    wallet: '0994-941-0110'
+  },
   393: {
     date: 'SEP.30',
     phone: '08',
