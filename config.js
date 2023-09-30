@@ -13,8 +13,8 @@ const config = {
   },
   418: {
     date: '.',
-    phone: '03',
-    sim: '80',
+    phone: '',
+    sim: '',
     wallet: ''
   },
   417: {
@@ -102,7 +102,7 @@ const config = {
     wallet: '0915-646-7850'
   },
   403: {
-    date: 'Oct.01',
+    date: 'OCT.01',
     phone: '04',
     sim: '77',
     wallet: '0977-093-6306'
