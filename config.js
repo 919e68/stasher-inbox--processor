@@ -1,27 +1,45 @@
 const config = {
+  393: {
+    date: 'SEP.30',
+    phone: '08',
+    sim: '115',
+    wallet: '0908-518-8144'
+  },
+  392: {
+    date: 'SEP.30',
+    phone: '07',
+    sim: '96',
+    wallet: '0931-025-7597'
+  },
+  391: {
+    date: 'SEP.30',
+    phone: '06',
+    sim: '108',
+    wallet: '0915-646-7867'
+  },
   390: {
     date: 'SEP.30',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '04',
+    sim: '56',
+    wallet: '0945-584-2800'
   },
   389: {
     date: 'SEP.30',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '03',
+    sim: '57',
+    wallet: '0945-584-2801'
   },
   388: {
     date: 'SEP.30',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '01',
+    sim: '12',
+    wallet: '0992-688-7592'
   },
   387: {
     date: 'SEP.30',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '00',
+    sim: '95',
+    wallet: '0960-412-6200'
   },
   386: {
     date: 'SEP.30',
