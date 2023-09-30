@@ -1,4 +1,10 @@
 const config = {
+  420: {
+    date: '.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
   419: {
     date: '.',
     phone: '',
