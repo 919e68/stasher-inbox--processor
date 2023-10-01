@@ -30,55 +30,55 @@ const config = {
     wallet: '0931-024-1275'
   },
   441: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '12',
     sim: '73',
     wallet: '0967-433-7521'
   },
   440: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '11',
     sim: '127',
     wallet: '0912-335-9745'
   },
   439: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '10',
     sim: '74',
     wallet: '0977-093-6297'
   },
   438: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '09',
     sim: '84',
     wallet: '0939-728-7617'
   },
   437: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '08',
     sim: '65',
     wallet: '0977-463-3391'
   },
   436: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '07',
     sim: '66',
     wallet: '0977-463-3114'
   },
   435: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '06',
     sim: '112',
     wallet: '0915-646-7850'
   },
   434: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '05',
     sim: '70',
     wallet: '0950-611-3644'
   },
   433: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '04',
     sim: '77',
     wallet: '0977-093-6306'
