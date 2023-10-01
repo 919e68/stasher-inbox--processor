@@ -38,8 +38,8 @@ const config = {
   424: {
     date: 'OCT.01',
     phone: '12',
-    sim: '122',
-    wallet: '0915-646-7793'
+    sim: '123',
+    wallet: '0915-646-7909'
   },
   423: {
     date: 'OCT.01',
