@@ -1,6 +1,480 @@
 const config = {
+  524: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  523: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  522: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  521: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  520: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  519: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  518: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  517: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  516: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  515: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  514: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  513: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  512: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  511: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  510: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  509: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  508: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  507: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  506: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  505: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  504: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  503: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  502: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  501: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  500: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  499: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  498: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  497: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  496: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  495: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  494: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  493: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  492: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  491: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  490: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  489: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  488: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  487: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  486: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  485: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  484: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  483: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  482: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  481: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  480: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  479: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  478: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  477: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  476: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  475: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  474: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  473: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  472: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  471: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  470: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  469: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  468: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  467: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  466: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  465: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  464: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  463: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  462: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  461: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  460: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  459: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  458: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  457: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  456: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  455: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  454: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  453: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  452: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  451: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  450: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  449: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  449: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  448: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  447: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
   446: {
-    date: 'OCT.01',
+    date: 'OCT.',
     phone: '',
     sim: '',
     wallet: ''
