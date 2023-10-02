@@ -1,36 +1,6 @@
 [
   {
     "type": "RECEIVE",
-    "datetime": "2023-10-02 02:25 AM",
-    "amount": 100,
-    "name": "JU***Y R.",
-    "mobile": "09554869066",
-    "msg": "5638",
-    "balance": 82486,
-    "reference": "1012407293730",
-    "wallet": "09770936306",
-    "duty": "mrbrown",
-    "num": 124,
-    "id": 156502,
-    "note": ""
-  },
-  {
-    "type": "RECEIVE",
-    "datetime": "2023-10-02 02:24 AM",
-    "amount": 100,
-    "name": "HA**N A™ A.",
-    "mobile": "09554277522",
-    "msg": "2172",
-    "balance": 80826,
-    "reference": "1012407287449",
-    "wallet": "09770936306",
-    "duty": "mrbrown",
-    "num": 123,
-    "id": 156498,
-    "note": ""
-  },
-  {
-    "type": "RECEIVE",
     "datetime": "2023-10-02 02:24 AM",
     "amount": 1560,
     "name": "LO***Y RO*E L.",
