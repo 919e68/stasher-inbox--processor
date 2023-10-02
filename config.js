@@ -474,7 +474,7 @@ const config = {
     wallet: ''
   },
   446: {
-    date: 'OCT.',
+    date: 'OCT.02',
     phone: '00',
     sim: '94',
     wallet: '0927-698-4548'
