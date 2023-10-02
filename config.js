@@ -434,8 +434,8 @@ const config = {
   452: {
     date: 'OCT.03',
     phone: '06',
-    sim: '110',
-    wallet: '0915-646-7859'
+    sim: '113',
+    wallet: '0915-646-7900'
   },
   451: {
     date: 'OCT.03',
