@@ -450,19 +450,19 @@ const config = {
     wallet: '0945-584-2780'
   },
   449: {
-    date: 'OCT.',
+    date: 'OCT.02',
     phone: '03',
     sim: '81',
     wallet: '0939-728-7621'
   },
   448: {
-    date: 'OCT.',
+    date: 'OCT.02',
     phone: '',
     sim: '',
     wallet: ''
   },
   447: {
-    date: 'OCT.',
+    date: 'OCT.02',
     phone: '01',
     sim: '107',
     wallet: '0915-646-7826'
