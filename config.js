@@ -469,30 +469,30 @@ const config = {
   },
   446: {
     date: 'OCT.',
-    phone: '00',
-    sim: '94',
-    wallet: '0927-698-4548'
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   445: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '17',
     sim: '101',
     wallet: '0915-646-7832'
   },
   444: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '16',
     sim: '27',
     wallet: '0945-487-3101'
   },
   443: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '14',
     sim: '69',
     wallet: '0908-130-7434'
   },
   442: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '13',
     sim: '121',
     wallet: '0931-024-1275'
