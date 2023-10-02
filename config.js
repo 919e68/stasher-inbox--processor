@@ -468,10 +468,10 @@ const config = {
     wallet: '0915-646-7826'
   },
   446: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'OCT.02',
+    phone: '00',
+    sim: '94',
+    wallet: '0927-698-4548'
   },
   445: {
     date: 'OCT.02',
