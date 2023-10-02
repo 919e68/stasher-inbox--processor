@@ -391,75 +391,69 @@ const config = {
   },
   459: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '13',
+    sim: '120',
+    wallet: '0915-646-7807'
   },
   458: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '12',
+    sim: '59',
+    wallet: '0956-995-6208'
   },
   457: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '11',
+    sim: '90',
+    wallet: '0931-013-2304'
   },
   456: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '10',
+    sim: '98',
+    wallet: '0915-646-7903'
   },
   455: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '09',
+    sim: '48',
+    wallet: '0951-118-4380'
   },
   454: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '08',
+    sim: '117',
+    wallet: '0915-646-7875'
   },
   453: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '07',
+    sim: '97',
+    wallet: '0915-646-7908'
   },
   452: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '06',
+    sim: '110',
+    wallet: '0915-646-7859'
   },
   451: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '05',
+    sim: '43',
+    wallet: '0905-503-3688'
   },
   450: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '04',
+    sim: '78',
+    wallet: '0945-584-2780'
   },
   449: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  449: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '03',
+    sim: '81',
+    wallet: '0939-728-7621'
   },
   448: {
     date: 'OCT.',
@@ -469,15 +463,15 @@ const config = {
   },
   447: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '01',
+    sim: '107',
+    wallet: '0915-646-7826'
   },
   446: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '00',
+    sim: '94',
+    wallet: '0927-698-4548'
   },
   445: {
     date: 'OCT.01',
