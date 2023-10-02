@@ -492,7 +492,7 @@ const config = {
     wallet: '0945-487-3101'
   },
   443: {
-    date: 'OCT.01',
+    date: 'OCT.02',
     phone: '14',
     sim: '69',
     wallet: '0908-130-7434'
