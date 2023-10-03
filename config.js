@@ -324,13 +324,13 @@ const config = {
     wallet: ''
   },
   470: {
-    date: 'OCT.',
+    date: 'OCT.03',
     phone: '07',
     sim: '96',
     wallet: '0931-025-7597'
   },
   469: {
-    date: 'OCT.',
+    date: 'OCT.03',
     phone: '06',
     sim: '111',
     wallet: '0915-646-7858'
@@ -342,25 +342,25 @@ const config = {
     wallet: '0951-499-7039'
   },
   467: {
-    date: 'OCT.',
+    date: 'OCT.03',
     phone: '04',
     sim: '79',
     wallet: '0945-584-2778'
   },
   466: {
-    date: 'OCT.',
+    date: 'OCT.03',
     phone: '03',
     sim: '80',
     wallet: '0939-728-7620'
   },
   465: {
-    date: 'OCT.',
+    date: 'OCT.03',
     phone: '02',
     sim: '86',
     wallet: '0915-471-3291'
   },
   464: {
-    date: 'OCT.',
+    date: 'OCT.03',
     phone: '01',
     sim: '40',
     wallet: '0998-450-2556'
