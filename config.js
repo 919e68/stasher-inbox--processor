@@ -404,8 +404,8 @@ const config = {
   457: {
     date: 'OCT.03',
     phone: '11',
-    sim: '90',
-    wallet: '0931-013-2304'
+    sim: '128',
+    wallet: '0912-336-0685'
   },
   456: {
     date: 'OCT.03',
