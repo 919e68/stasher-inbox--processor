@@ -198,73 +198,73 @@ const config = {
     wallet: ''
   },
   491: {
-    date: 'OCT.',
+    date: 'OCT.04',
     phone: '11',
     sim: '42',
     wallet: '0945-487-3100'
   },
   490: {
-    date: 'OCT.',
+    date: 'OCT.04',
     phone: '10',
     sim: '99',
     wallet: '0915-646-7905'
   },
   489: {
-    date: 'OCT.',
+    date: 'OCT.04',
     phone: '09',
     sim: '132',
     wallet: '0915-646-7843'
   },
   488: {
-    date: 'OCT.',
+    date: 'OCT.04',
     phone: '08',
     sim: '114',
     wallet: '0963-680-7732'
   },
   487: {
-    date: 'OCT.',
+    date: 'OCT.04',
     phone: '07',
     sim: '129',
     wallet: '0915-646-7795'
   },
   486: {
-    date: 'OCT.',
+    date: 'OCT.04',
     phone: '06',
     sim: '89',
     wallet: '0931-011-4419'
   },
   485: {
-    date: 'OCT.',
+    date: 'OCT.04',
     phone: '05',
     sim: '71',
     wallet: '0967-655-1746'
   },
   484: {
-    date: 'OCT.',
+    date: 'OCT.04',
     phone: '04',
     sim: '72',
     wallet: '0977-093-6299'
   },
   483: {
-    date: 'OCT.',
+    date: 'OCT.04',
     phone: '03',
     sim: '83',
     wallet: '0908-344-8450'
   },
   482: {
-    date: 'OCT.',
+    date: 'OCT.04',
     phone: '02',
     sim: '38',
     wallet: '0945-584-2793'
   },
   481: {
-    date: 'OCT.',
+    date: 'OCT.04',
     phone: '01',
     sim: '12',
     wallet: '0992-688-7592'
   },
   480: {
-    date: 'OCT.',
+    date: 'OCT.04',
     phone: '00',
     sim: '95',
     wallet: '0960-412-6200'
