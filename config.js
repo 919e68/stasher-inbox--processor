@@ -270,97 +270,97 @@ const config = {
     wallet: ''
   },
   479: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'OCT.03',
+    phone: '17',
+    sim: '102',
+    wallet: '0915-646-7912'
   },
   478: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'OCT.03',
+    phone: '16',
+    sim: '29',
+    wallet: '0945-487-3097'
   },
   477: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'OCT.03',
+    phone: '14',
+    sim: '68',
+    wallet: '0977-463-3408'
   },
   476: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'OCT.03',
+    phone: '13',
+    sim: '119',
+    wallet: '0915-646-7914'
   },
   475: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'OCT.03',
+    phone: '12',
+    sim: '126',
+    wallet: '0912-331-3085'
   },
   474: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'OCT.03',
+    phone: '11',
+    sim: '128',
+    wallet: '0912-336-0685'
   },
   473: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'OCT.03',
+    phone: '10',
+    sim: '100',
+    wallet: '0931-010-7337'
   },
   472: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'OCT.03',
+    phone: '09',
+    sim: '47',
+    wallet: '0969-179-1884'
   },
   471: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'OCT.03',
+    phone: '08',
+    sim: '116',
+    wallet: '0915-646-7847'
   },
   470: {
-    date: 'OCT.',
+    date: 'OCT.03',
     phone: '07',
     sim: '96',
     wallet: '0931-025-7597'
   },
   469: {
-    date: 'OCT.',
+    date: 'OCT.03',
     phone: '06',
     sim: '111',
     wallet: '0915-646-7858'
   },
   468: {
-    date: 'OCT.',
+    date: 'OCT.03',
     phone: '05',
     sim: '44',
     wallet: '0951-499-7039'
   },
   467: {
-    date: 'OCT.',
+    date: 'OCT.03',
     phone: '04',
     sim: '79',
     wallet: '0945-584-2778'
   },
   466: {
-    date: 'OCT.',
+    date: 'OCT.03',
     phone: '03',
     sim: '80',
     wallet: '0939-728-7620'
   },
   465: {
-    date: 'OCT.',
+    date: 'OCT.03',
     phone: '02',
     sim: '86',
     wallet: '0915-471-3291'
   },
   464: {
-    date: 'OCT.',
+    date: 'OCT.03',
     phone: '01',
     sim: '40',
     wallet: '0998-450-2556'
