@@ -302,8 +302,8 @@ const config = {
   474: {
     date: 'OCT.03',
     phone: '11',
-    sim: '128',
-    wallet: '0912-336-0685'
+    sim: '21',
+    wallet: '0927-747-5671'
   },
   473: {
     date: 'OCT.03',
