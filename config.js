@@ -325,69 +325,69 @@ const config = {
   },
   470: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '07',
+    sim: '96',
+    wallet: '0931-025-7597'
   },
   469: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '06',
+    sim: '111',
+    wallet: '0915-646-7858'
   },
   468: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '05',
+    sim: '44',
+    wallet: '0951-499-7039'
   },
   467: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '04',
+    sim: '79',
+    wallet: '0945-584-2778'
   },
   466: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '03',
+    sim: '80',
+    wallet: '0939-728-7620'
   },
   465: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '02',
+    sim: '86',
+    wallet: '0915-471-3291'
   },
   464: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '01',
+    sim: '40',
+    wallet: '0998-450-2556'
   },
   463: {
     date: 'OCT.03',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '00',
+    sim: '93',
+    wallet: '0908-466-9133'
   },
   462: {
     date: 'OCT.03',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '17',
+    sim: '103',
+    wallet: '0915-646-7877'
   },
   461: {
     date: 'OCT.03',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '16',
+    sim: '28',
+    wallet: '0977-464-3571'
   },
   460: {
     date: 'OCT.03',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '14',
+    sim: '53',
+    wallet: '0945-584-2792'
   },
   459: {
     date: 'OCT.03',
