@@ -62,8 +62,8 @@ const config = {
   521: {
     date: 'OCT.',
     phone: '07',
-    sim: '66',
-    wallet: '0977-463-3114'
+    sim: '97',
+    wallet: '0915-646-7908'
   },
   520: {
     date: 'OCT.',
@@ -92,8 +92,8 @@ const config = {
   516: {
     date: 'OCT.',
     phone: '02',
-    sim: '130',
-    wallet: '0939-728-7614'
+    sim: '87',
+    wallet: '0915-471-3281'
   },
   515: {
     date: 'OCT.',
