@@ -135,7 +135,7 @@ const config = {
     date: 'OCT.03',
     phone: '05',
     sim: '70',
-    wallet: ''
+    wallet: '0950-611-3644'
   },
   501: {
     date: 'OCT.03',
