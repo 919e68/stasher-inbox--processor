@@ -91,9 +91,9 @@ const config = {
   },
   516: {
     date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '02',
+    sim: '130',
+    wallet: '0939-728-7614'
   },
   515: {
     date: 'OCT.',
