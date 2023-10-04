@@ -108,55 +108,55 @@ const config = {
     wallet: '0960-412-6166'
   },
   513: {
-    date: 'OCT.04',
+    date: 'OCT.05',
     phone: '17',
     sim: '101',
     wallet: '0915-646-7832'
   },
   512: {
-    date: 'OCT.04',
+    date: 'OCT.05',
     phone: '16',
     sim: '28',
     wallet: '0977-464-3571'
   },
   511: {
-    date: 'OCT.04',
+    date: 'OCT.05',
     phone: '14',
     sim: '55',
     wallet: '0945-584-2762'
   },
   510: {
-    date: 'OCT.04',
+    date: 'OCT.05',
     phone: '13',
     sim: '60',
     wallet: '0977-463-3167'
   },
   509: {
-    date: 'OCT.04',
+    date: 'OCT.05',
     phone: '12',
     sim: '122',
     wallet: '0915-646-7793'
   },
   508: {
-    date: 'OCT.04',
+    date: 'OCT.05',
     phone: '11',
     sim: '127',
     wallet: '0912-335-9745'
   },
   507: {
-    date: 'OCT.04',
+    date: 'OCT.05',
     phone: '10',
     sim: '24',
     wallet: '0994-941-0110'
   },
   506: {
-    date: 'OCT.04',
+    date: 'OCT.05',
     phone: '09',
     sim: '133',
     wallet: '0915-646-7837'
   },
   505: {
-    date: 'OCT.04',
+    date: 'OCT.05',
     phone: '08',
     sim: '115',
     wallet: '0908-518-8144'
