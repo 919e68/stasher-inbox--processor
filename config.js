@@ -12,43 +12,43 @@ const config = {
     wallet: '0915-646-7877'
   },
   529: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '16',
     sim: '29',
     wallet: '0945-487-3097'
   },
   528: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '14',
     sim: '69',
     wallet: '0908-130-7434'
   },
   527: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '13',
     sim: '58',
     wallet: '0945-584-2759'
   },
   526: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '12',
     sim: '123',
     wallet: '0915-646-7909'
   },
   525: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '11',
     sim: '128',
     wallet: '0912-336-0685'
   },
   524: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '10',
     sim: '10',
     wallet: '0970-824-7411'
   },
   523: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '09',
     sim: '134',
     wallet: '0915-646-7726'
