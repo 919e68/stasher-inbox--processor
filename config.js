@@ -54,55 +54,55 @@ const config = {
     wallet: '0915-646-7726'
   },
   522: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '08',
     sim: '62',
     wallet: '0945-584-2798'
   },
   521: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '07',
     sim: '97',
     wallet: '0915-646-7908'
   },
   520: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '06',
     sim: '88',
     wallet: '0931-099-0774'
   },
   519: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '05',
     sim: '43',
     wallet: '0905-503-3688'
   },
   518: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '04',
     sim: '13',
     wallet: '0977-462-6068'
   },
   517: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '03',
     sim: '82',
     wallet: '0908-418-6935'
   },
   516: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '02',
     sim: '87',
     wallet: '0915-471-3281'
   },
   515: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '01',
     sim: '105',
     wallet: '0945-584-2802'
   },
   514: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '00',
     sim: '92',
     wallet: '0960-412-6166'
