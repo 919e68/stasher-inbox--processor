@@ -54,7 +54,7 @@ const config = {
     wallet: '0945-487-3097'
   },
   528: {
-    date: 'OCT.05',
+    date: 'OCT.06',
     phone: '14',
     sim: '69',
     wallet: '0908-130-7434'
