@@ -60,19 +60,19 @@ const config = {
     wallet: '0915-646-7719'
   },
   556: {
-    date: 'OCT.06',
+    date: 'OCT.07',
     phone: '08',
     sim: '117',
     wallet: '0915-646-7875'
   },
   555: {
-    date: 'OCT.06',
+    date: 'OCT.07',
     phone: '07',
     sim: '129',
     wallet: '0915-646-7795'
   },
   554: {
-    date: 'OCT.06',
+    date: 'OCT.07',
     phone: '06',
     sim: '131',
     wallet: '0915-646-7892'
