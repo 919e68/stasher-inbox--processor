@@ -42,19 +42,19 @@ const config = {
     wallet: '0912-331-3085'
   },
   559: {
-    date: 'OCT.06',
+    date: 'OCT.07',
     phone: '11',
     sim: '42',
     wallet: '0945-487-3100'
   },
   558: {
-    date: 'OCT.06',
+    date: 'OCT.07',
     phone: '10',
     sim: '98',
     wallet: '0915-646-7903'
   },
   557: {
-    date: 'OCT.06',
+    date: 'OCT.07',
     phone: '09',
     sim: '137',
     wallet: '0915-646-7719'
