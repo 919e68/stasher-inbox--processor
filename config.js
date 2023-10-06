@@ -1,9 +1,69 @@
 const config = {
+  541: {
+    date: 'OCT.06',
+    phone: '10',
+    sim: '74',
+    wallet: '0977-093-6297'
+  },
+  540: {
+    date: 'OCT.06',
+    phone: '09',
+    sim: '135',
+    wallet: '0915-646-7917'
+  },
+  539: {
+    date: 'OCT.06',
+    phone: '08',
+    sim: '65',
+    wallet: '0977-463-3391'
+  },
+  538: {
+    date: 'OCT.06',
+    phone: '07',
+    sim: '96',
+    wallet: '0931-025-7597'
+  },
   537: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'OCT.06',
+    phone: '06',
+    sim: '108',
+    wallet: '0915-646-7867'
+  },
+  536: {
+    date: 'OCT.06',
+    phone: '05',
+    sim: '44',
+    wallet: '0951-499-7039'
+  },
+  535: {
+    date: 'OCT.06',
+    phone: '04',
+    sim: '75',
+    wallet: '0945-584-2788'
+  },
+  534: {
+    date: 'OCT.06',
+    phone: '03',
+    sim: '15',
+    wallet: '0919-413-8875'
+  },
+  533: {
+    date: 'OCT.06',
+    phone: '02',
+    sim: '14',
+    wallet: '0956-896-6669'
+  },
+  532: {
+    date: 'OCT.06',
+    phone: '01',
+    sim: '41',
+    wallet: '0945-584-2667'
+  },
+  531: {
+    date: 'OCT.05',
+    phone: '00',
+    sim: '94',
+    wallet: '0927-698-4548'
   },
   536: {
     date: 'OCT.',
@@ -42,7 +102,7 @@ const config = {
     wallet: '0927-698-4548'
   },
   530: {
-    date: 'OCT.',
+    date: 'OCT.05',
     phone: '17',
     sim: '103',
     wallet: '0915-646-7877'
@@ -54,7 +114,7 @@ const config = {
     wallet: '0945-487-3097'
   },
   528: {
-    date: 'OCT.05',
+    date: 'OCT.06',
     phone: '14',
     sim: '69',
     wallet: '0908-130-7434'
