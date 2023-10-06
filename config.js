@@ -20,8 +20,8 @@ const config = {
   557: {
     date: 'OCT.06',
     phone: '09',
-    sim: '136',
-    wallet: '0915-646-7886'
+    sim: '137',
+    wallet: '0915-646-7719'
   },
   556: {
     date: 'OCT.06',
