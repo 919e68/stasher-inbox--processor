@@ -65,42 +65,6 @@ const config = {
     sim: '94',
     wallet: '0927-698-4548'
   },
-  536: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  535: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  534: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  533: {
-    date: 'OCT.',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  532: {
-    date: 'OCT.',
-    phone: '01',
-    sim: '41',
-    wallet: '0945-584-2667'
-  },
-  531: {
-    date: 'OCT.',
-    phone: '00',
-    sim: '94',
-    wallet: '0927-698-4548'
-  },
   530: {
     date: 'OCT.05',
     phone: '17',
