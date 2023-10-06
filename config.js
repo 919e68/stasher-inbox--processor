@@ -1,4 +1,52 @@
 const config = {
+  549: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  548: {
+    date: 'OCT.',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  547: {
+    date: 'OCT.',
+    phone: '17',
+    sim: '102',
+    wallet: '0915-646-7912'
+  },
+  546: {
+    date: 'OCT.',
+    phone: '16',
+    sim: '27',
+    wallet: '0945-487-3101'
+  },
+  545: {
+    date: 'OCT.',
+    phone: '14',
+    sim: '53',
+    wallet: '0945-584-2792'
+  },
+  544: {
+    date: 'OCT.',
+    phone: '13',
+    sim: '121',
+    wallet: '0931-024-1275'
+  },
+  543: {
+    date: 'OCT.06',
+    phone: '12',
+    sim: '73',
+    wallet: '0967-433-7521'
+  },
+  542: {
+    date: 'OCT.06',
+    phone: '11',
+    sim: '21',
+    wallet: '0927-747-5671'
+  },
   541: {
     date: 'OCT.06',
     phone: '10',
