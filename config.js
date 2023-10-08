@@ -128,8 +128,8 @@ const config = {
   587: {
     date: 'OCT.08',
     phone: '05',
-    sim: '',
-    wallet: ''
+    sim: '43',
+    wallet: '0905-503-3688'
   },
   586: {
     date: 'OCT.08',
