@@ -1,36 +1,6 @@
 [
   {
     "type": "RECEIVE",
-    "datetime": "2023-10-08 10:50 PM",
-    "amount": 500,
-    "name": "RI****L M.",
-    "mobile": "09362686046",
-    "msg": null,
-    "balance": 54303.98,
-    "reference": "1012551607275",
-    "wallet": "09455842801",
-    "duty": "mrbrown",
-    "num": 230,
-    "id": "",
-    "note": "no_request"
-  },
-  {
-    "type": "RECEIVE",
-    "datetime": "2023-10-08 10:50 PM",
-    "amount": 300,
-    "name": "NI*O J** S.",
-    "mobile": "09754140119",
-    "msg": "3234",
-    "balance": 53803.98,
-    "reference": "5012551604259",
-    "wallet": "09455842801",
-    "duty": "mrbrown",
-    "num": 229,
-    "id": "",
-    "note": "no_request"
-  },
-  {
-    "type": "RECEIVE",
     "datetime": "2023-10-08 10:21 PM",
     "amount": 1000,
     "name": "AN*****A M** D.",
