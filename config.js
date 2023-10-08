@@ -59,6 +59,36 @@ const config = {
     sim: '',
     wallet: ''
   },
+  0: {
+    date: 'OCT.08',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  0: {
+    date: 'OCT.08',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  0: {
+    date: 'OCT.08',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  0: {
+    date: 'OCT.08',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  0: {
+    date: 'OCT.08',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
   615: {
     date: 'OCT.08',
     phone: '17',
