@@ -182,8 +182,8 @@ const config = {
   600: {
     date: 'OCT.08',
     phone: '01',
-    sim: '106',
-    wallet: '0915-646-7902'
+    sim: '105',
+    wallet: '0945-584-2802'
   },
   599: {
     date: 'OCT.08',
