@@ -1,267 +1,165 @@
 const config = {
-  0: {
-    date: 'OCT.08',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  0: {
-    date: 'OCT.08',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  0: {
-    date: 'OCT.08',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  0: {
-    date: 'OCT.08',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  0: {
-    date: 'OCT.08',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  0: {
-    date: 'OCT.08',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  0: {
-    date: 'OCT.08',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  0: {
-    date: 'OCT.08',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  0: {
-    date: 'OCT.08',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  0: {
-    date: 'OCT.08',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  615: {
-    date: 'OCT.08',
-    phone: '17',
-    sim: '102',
-    wallet: '0915-646-7912'
-  },
-  614: {
-    date: 'OCT.08',
-    phone: '16',
-    sim: '28',
-    wallet: '0977-464-3571'
-  },
-  613: {
-    date: 'OCT.08',
-    phone: '14',
-    sim: '69',
-    wallet: '0908-130-7434'
-  },
-  612: {
-    date: 'OCT.08',
-    phone: '13',
-    sim: '60',
-    wallet: '0977-463-3167'
-  },
-  611: {
-    date: 'OCT.08',
-    phone: '12',
-    sim: '123',
-    wallet: '0915-646-7909'
-  },
-  610: {
-    date: 'OCT.08',
-    phone: '11',
-    sim: '21',
-    wallet: '0927-747-5671'
-  },
-  609: {
-    date: 'OCT.08',
-    phone: '10',
-    sim: '24',
-    wallet: '0994-941-0110'
-  },
   608: {
-    date: 'OCT.08',
-    phone: '09',
-    sim: '47',
-    wallet: '0969-179-1884'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   607: {
-    date: 'OCT.08',
-    phone: '08',
-    sim: '115',
-    wallet: '0908-518-8144'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   606: {
-    date: 'OCT.08',
-    phone: '07',
-    sim: '96',
-    wallet: '0931-025-7597'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   605: {
-    date: 'OCT.08',
-    phone: '06',
-    sim: '111',
-    wallet: '0915-646-7858'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   604: {
-    date: 'OCT.08',
-    phone: '05',
-    sim: '44',
-    wallet: '0951-499-7039'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   603: {
-    date: 'OCT.08',
-    phone: '04',
-    sim: '79',
-    wallet: '0945-584-2778'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   602: {
-    date: 'OCT.08',
-    phone: '03',
-    sim: '57',
-    wallet: '0945-584-2801'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   601: {
-    date: 'OCT.08',
-    phone: '02',
-    sim: '87',
-    wallet: '0915-471-3281'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   600: {
-    date: 'OCT.08',
-    phone: '01',
-    sim: '106',
-    wallet: '0915-646-7902'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   599: {
-    date: 'OCT.08',
-    phone: '00',
-    sim: '91',
-    wallet: '0960-412-6165'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   598: {
-    date: 'OCT.08',
-    phone: '17',
-    sim: '103',
-    wallet: '0915-646-7877'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   597: {
-    date: 'OCT.08',
-    phone: '16',
-    sim: '27',
-    wallet: '0945-487-3101'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   596: {
-    date: 'OCT.08',
-    phone: '14',
-    sim: '55',
-    wallet: '0945-584-2762'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   595: {
-    date: 'OCT.08',
-    phone: '13',
-    sim: '118',
-    wallet: '0915-646-7852'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   594: {
-    date: 'OCT.08',
-    phone: '12',
-    sim: '122',
-    wallet: '0915-646-7793'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   593: {
-    date: 'OCT.08',
-    phone: '11',
-    sim: '128',
-    wallet: '0912-336-0685'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   592: {
-    date: 'OCT.08',
-    phone: '10',
-    sim: '99',
-    wallet: '0915-646-7905'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   591: {
-    date: 'OCT.08',
-    phone: '09',
-    sim: '48',
-    wallet: '0951-118-4380'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   590: {
-    date: 'OCT.08',
-    phone: '08',
-    sim: '114',
-    wallet: '0963-680-7732'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   589: {
-    date: 'OCT.08',
-    phone: '07',
-    sim: '97',
-    wallet: '0915-646-7908'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   588: {
-    date: 'OCT.08',
-    phone: '06',
-    sim: '113',
-    wallet: '0915-646-7900'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   587: {
-    date: 'OCT.08',
-    phone: '05',
-    sim: '43',
-    wallet: '0905-503-3688'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   586: {
-    date: 'OCT.08',
-    phone: '04',
-    sim: '78',
-    wallet: '0945-584-2780'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   585: {
-    date: 'OCT.08',
-    phone: '03',
-    sim: '83',
-    wallet: '0908-344-8450'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   584: {
-    date: 'OCT.08',
-    phone: '02',
-    sim: '87',
-    wallet: '0915-471-3281'
+    date: 'OCT.07',
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   583: {
     date: 'OCT.08',
-    phone: '01',
-    sim: '106',
-    wallet: '0915-646-7902'
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   582: {
     date: 'OCT.08',
-    phone: '00',
-    sim: '92',
-    wallet: '0960-412-6166'
+    phone: '',
+    sim: '',
+    wallet: ''
   },
   581: {
     date: 'OCT.08',
@@ -312,7 +210,7 @@ const config = {
     wallet: '0939-728-7617'
   },
   573: {
-    date: 'OCT.08',
+    date: 'OCT.07',
     phone: '08',
     sim: '116',
     wallet: '0915-646-7847'
