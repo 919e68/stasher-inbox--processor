@@ -1,6 +1,24 @@
 const config = {
   0: {
-    date: 'OCT.08',
+    date: 'OCT.09',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  0: {
+    date: 'OCT.09',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  0: {
+    date: 'OCT.09',
+    phone: '',
+    sim: '',
+    wallet: ''
+  },
+  0: {
+    date: 'OCT.09',
     phone: '',
     sim: '',
     wallet: ''
@@ -12,67 +30,49 @@ const config = {
     wallet: ''
   },
   0: {
-    date: 'OCT.08',
+    date: 'OCT.09',
     phone: '',
     sim: '',
     wallet: ''
   },
   0: {
-    date: 'OCT.08',
+    date: 'OCT.09',
     phone: '',
     sim: '',
     wallet: ''
   },
   0: {
-    date: 'OCT.08',
+    date: 'OCT.09',
     phone: '',
     sim: '',
     wallet: ''
   },
   0: {
-    date: 'OCT.08',
+    date: 'OCT.09',
     phone: '',
     sim: '',
     wallet: ''
   },
   0: {
-    date: 'OCT.08',
+    date: 'OCT.09',
     phone: '',
     sim: '',
     wallet: ''
   },
   0: {
-    date: 'OCT.08',
+    date: 'OCT.09',
     phone: '',
     sim: '',
     wallet: ''
   },
   0: {
-    date: 'OCT.08',
+    date: 'OCT.09',
     phone: '',
     sim: '',
     wallet: ''
   },
   0: {
-    date: 'OCT.08',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  0: {
-    date: 'OCT.08',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  0: {
-    date: 'OCT.08',
-    phone: '',
-    sim: '',
-    wallet: ''
-  },
-  0: {
-    date: 'OCT.08',
+    date: 'OCT.09',
     phone: '',
     sim: '',
     wallet: ''
