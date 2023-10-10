@@ -59,7 +59,7 @@ const config = {
     sim: '',
     wallet: ''
   },
-  266: {
+  626: {
     date: 'OCT.10',
     phone: '10',
     sim: '10',
