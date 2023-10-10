@@ -91,9 +91,9 @@ const config = {
   },
   621: {
     date: 'OCT.10',
-    phone: '',
-    sim: '',
-    wallet: ''
+    phone: '05',
+    sim: '71',
+    wallet: '0967-655-1746'
   },
   620: {
     date: 'OCT.10',
