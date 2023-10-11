@@ -396,40 +396,40 @@ const config = {
     wallet: '0945-584-2798'
   },
   623: {
-    date: 'OCT.11',
+    date: 'OCT.12',
     phone: '07',
     sim: '129',
     wallet: '0915-646-7795'
   },
   622: {
-    date: 'OCT.11',
+    date: 'OCT.12',
     phone: '06',
     sim: '89',
     wallet: '0931-011-4419'
   },
   621: {
-    date: 'OCT.11',
+    date: 'OCT.12',
     phone: '05',
     sim: '71',
     wallet: '0967-655-1746'
   },
   620: {
-    date: 'OCT.11',
+    date: 'OCT.12',
     phone: '04',
     sim: '72',
     wallet: '0977-093-6299'
   },
   619: {
-    date: 'OCT.11',
+    date: 'OCT.12',
     phone: '03',
     sim: '82',
     wallet: '0908-418-6935'
   },
   618: {
-    date: 'OCT.11',
-    phone: '',
-    sim: '',
-    wallet: ''
+    date: 'OCT.12',
+    phone: '01',
+    sim: '12',
+    wallet: '0992-688-7592'
   },
   617: {
     date: 'OCT.11',
